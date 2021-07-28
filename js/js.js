@@ -53,6 +53,7 @@ function yaz(event){
 		default: //Yaz
 			if( zamanlama === null){
 				GeriSay(Sonuclar);
+				klavye()
 				_Document.querySelector('.progress').classList.add("active");
 				_Document.querySelector('.txt_typing').remove();
 			}
@@ -99,7 +100,6 @@ function klavye(tur="q") {
 	});
 	//_Document.querySelector('.keyboard-base').style.display = "table";
 }
-klavye()
 
 function Sonuclar(){
 	_Document.querySelector('#text').disabled = true;
