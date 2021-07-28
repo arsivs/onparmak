@@ -1,0 +1,84 @@
+.keyboard-base {
+	display: none;
+	margin: 0 auto;
+	margin-top: 20px;
+	font-size: 0;
+	width: 793px;
+	padding: 10px;
+	background-color: rgb(197, 197, 197);
+	border-radius: 7px;
+	user-select: none;
+}
+
+.key {
+	display: inline-block;
+	min-width: 50px;
+	height: 50px;
+	background-color: rgb(243, 243, 243);
+	border: 2px solid black;
+	border-radius: 3px;
+	font-size: 20px;
+	text-align: center;
+	padding: 10px;
+	margin: 1px;
+	vertical-align: top;
+}
+
+.key.err {
+	background: rgb(255, 0, 0);
+	border: 2px solid #eeeeee;
+	color: #fff;
+}
+
+div[data-key="8"] { /* Backspace */
+	width: 95px;
+	font-size: 16px;
+}
+div[data-key="9"] { /* Tab */
+	width: 75px;
+}
+div[data-key="20"] { /* Capslock */
+	width: 90px;
+	font-size: 16px;
+}
+div[data-key="13"] { /* Enter */
+	position: relative;
+	width: 55px;
+	height: 102px;
+	float: right;
+	font-size: 16px;
+	text-align: left;
+	padding: 13px 0px;
+	border-top-left-radius: 0;
+}
+div[data-key="13"]::before { /* Enter */
+	content: "";
+	position: absolute;
+	background-color: rgb(243, 243, 243);
+	border: 2px solid black;
+	border-right: 0;
+	box-sizing: border-box;
+	border-radius: 3px 0px 2px 3px;
+	width: 17px;
+	height: 49px;
+	right: 100%;
+	top: -2px;
+}
+div[data-key="16"] { /* Shift */
+	width: 75px;
+}
+div[data-key="16"] ~ div[data-key="16"] { /* Ctrl Sag */
+	width: 122px;
+}
+div[data-key="17"] { /* Ctrl Sol */
+	width: 110px;
+}
+div[data-key="17"] ~ div[data-key="17"] { /* Ctrl Sag */
+	
+}
+div[data-key="18"] { /* Alt */
+	width: 110px;
+}
+div[data-key="32"] { /* Space */
+	width: 323px;
+}
