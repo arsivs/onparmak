@@ -53,7 +53,7 @@ function yaz(event){
 		default: //Yaz
 			if( zamanlama === null){
 				GeriSay(Sonuclar);
-				klavye()
+				klavye();
 				_Document.querySelector('.progress').classList.add("active");
 				_Document.querySelector('.txt_typing').remove();
 			}
