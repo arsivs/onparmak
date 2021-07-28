@@ -32,7 +32,7 @@
 
 div[data-key="8"] { /* Backspace */
 	width: 95px;
-	font-size: 16px;
+	font-size: 15px;
 }
 div[data-key="9"] { /* Tab */
 	width: 75px;
