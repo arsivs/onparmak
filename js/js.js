@@ -136,7 +136,18 @@ function tus_kontrol(t){
 	return [49, 50, 51, 52, 53, 54, 55, 56, 57, 48, 81, 87, 69, 82, 84, 89, 85, 73, 79, 80, 219, 221, 65, 83, 68, 70, 71, 72, 74, 75, 76, 186, 222, 188, 90, 88, 67, 86, 66, 78, 77, 191, 220, 190, 32, 8].includes(t);
 }
 
+function msg(m,c){
 
+	var cont = document.querySelector('.notif-cont'),
+		div = '<div class="notif '+c+'">'+m+'</div>';
+		
+	cont.style.display = "block";
+	cont.insertAdjacentHTML('beforeend', div);
+	var notif = cont.querySelector('.notif');
+	setTimeout(function(){
+		cont.querySelector('.notif').remove();
+	},2400);
+}
 
 
 /*
