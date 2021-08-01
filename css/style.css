@@ -17,9 +17,6 @@ body {
 	-webkit-font-smoothing: antialiased;
 	line-height: 1.40;
 	background-color: #f6f6f7;
-	background-image: url(../images/1.png), url(../images/2.png);
-	background-position: 2% 120px, 98% 120px;
-	background-repeat: repeat-y;
 }
 * {
 	
@@ -37,7 +34,6 @@ body {
 
 .ust_alan {
 	background-color: #fff;
-	height: 120px;
 	box-shadow: 0 2px 18px 0 rgb(129 162 182 / 20%);
 }
 .ust_bar {
@@ -150,7 +146,7 @@ body {
 	right: 0;
 	margin-top: 10px;
 	border-radius: 3px;
-	z-index: 1;
+	z-index: 3;
 	box-shadow: 0 0 2px 0 #d4d4d7, 0 1px 4px 0 #d4d4d7;
 }
 .ust_alan .menu_ic::after {
@@ -185,7 +181,11 @@ body {
 
 /* Orta Alan Start */
 .orta_alan {
+	height: 100%;
 	overflow: auto;
+	background-image: url(../images/1.png), url(../images/2.png);
+	background-position: 2% 10px, 98% 10px;
+	background-repeat: repeat-y;
 }
 .orta_alan .max_gen {
 	width: 100%;
@@ -196,6 +196,70 @@ body {
 	display: block;
 	width: 100%;
 }
+
+.sayfa_url {
+	display: flex;
+	flex-wrap: wrap;
+	width: 500px;
+	margin: 15px auto;
+	margin-top: 100px;
+	font-size: 16px;
+}
+.sayfa_url a {
+	margin: 5px;
+	text-align: center;
+	flex: 240px;
+	height: 100px;
+	color: #0f0f10;
+	line-height: 130px;
+	position: relative;
+	text-decoration: none;
+	transition: all 0.5s;
+}
+.sayfa_url a::before {
+	content: '';
+	position: absolute;
+	top: 0;
+	left: 0;
+	width: 100%;
+	height: 100%;
+	z-index: -1;
+	background-color: #fff;
+	transition: all 0.3s;
+}
+.sayfa_url a:hover::before {
+  opacity: 0 ;
+  transform: scale(0.5,0.5);
+}
+.sayfa_url a::after {
+	content: '';
+	position: absolute;
+	top: 0;
+	left: 0;
+	width: 100%;
+	height: 100%;
+	z-index: -1;
+	opacity: 0;
+	transition: all 0.3s;
+	background-color: #fcfcfc;
+	border: 1px solid #ccc;
+	transform: scale(1.2,1.2);
+}
+.sayfa_url a:hover::after {
+	opacity: 1;
+	transform: scale(1,1);
+}
+.sayfa_url i {
+	position: absolute;
+	left: 100px;
+	top: 15px;
+	font-size: 30px;
+	line-height: normal;
+}
+.sayfa_url a.disabled{
+	color: #ababb0;
+}
+
 
 .ayar {
 	width: 900px;
@@ -543,6 +607,15 @@ body.gece .ust_alan .menu_ic a {
 body.gece .ust_alan .menu_ic a:hover {
 	background-color: #312f2f;
 }
+body.gece .ayar:hover {
+	color: #939aa0;
+}
+body.gece .ayar:hover .check-box::before {
+	border-color: #939aa0;
+}
+body.gece .ayar .checked::after {
+	box-shadow: 0 0 0 2px #2d2d2d;
+}
 body.gece .orta_alan .yaz {
 	color: #fff;
 	background: linear-gradient( 90deg, transparent 0%, #161616 20%, #161616 80%, transparent 100%);
@@ -552,6 +625,19 @@ body.gece .orta_alan .yaz:before {
 }
 body.gece .orta_alan .yaz:after {
 	background-image: linear-gradient(to right, rgba(255,0,0,0), rgb(22 22 22));
+}
+body.gece .sayfa_url a {
+	color: #888;
+}
+body.gece .sayfa_url a.disabled {
+	color: #4d4c4c;
+}
+body.gece .sayfa_url a::before {
+	background-color: #212121;
+}
+body.gece .sayfa_url a::after {
+	background-color: #242424;
+	border-color: #474747;
 }
 body.gece #text {
 	color: #fff;
@@ -563,4 +649,66 @@ body.gece .canli_sonuc div > div {
 /* Body Gece End */
 
 
-/* Test Alan */
+/* Notification Message Start */
+.notif-cont {
+	display: none;
+	position: fixed;
+	width: 250px;
+	max-height: 75%;
+	left: 30px;
+	bottom: 60px;
+	z-index: 2;
+	overflow: hidden;
+}
+.notif {
+	width: 250px;
+	padding: 10px;
+	margin: 10px 0;
+	color: #FFF;
+	border-radius: 4px;
+	padding-left: 45px;
+	position: relative;
+	opacity: 0;
+	overflow: hidden;
+	animation: notif 2400ms ease-in-out;
+}
+.notif::after {
+	font-family: "fontello";
+	content: "";
+	position: absolute;
+	background-color: rgb(0 0 0 / 17%);
+	font-size: 23px;
+	font-weight: 100;
+	color: #efefef;
+	top: 0;
+	left: 0;
+	bottom: 0;
+	width: 36px;
+	line-height: 40px;
+	text-align: center;
+}
+@keyframes notif {
+	0% { opacity: 0; }
+	30% { opacity: 1; }
+	80% { opacity: 1; }
+	100% { opacity: 0; }
+}
+.notif.warning {
+	background: #FFC107;
+}
+.notif.warning::after {
+	content: "\e810";
+}
+.notif.success {
+	background: #2ECC71;
+}
+.notif.success::after {
+	content: "\e80f";
+}
+.notif.error {
+	background: #C0392B;
+}
+.notif.error::after {
+	content: "\e811";
+}
+/* Notification Message Stop */

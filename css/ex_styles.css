@@ -19,7 +19,7 @@
 .progress.active {
 	display: block;
 	width: 0;
-	top: 120px;
+	top: 75px;
 	box-shadow: none;
 	background: #ff9595;
 	border-radius: 0px 2px 2px 0px;

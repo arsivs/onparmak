@@ -1,23 +1,23 @@
 .keyboard-base {
 	display: none;
 	margin: 0 auto;
-	margin-top: 20px;
+	margin-top: 40px;
 	font-size: 0;
-	width: 793px;
-	padding: 10px;
-	background-color: rgb(197, 197, 197);
-	border-radius: 7px;
+	width: 724px;
+	padding: 8px;
+	background-color: #dedede;
+	border-radius: 2px;
 	user-select: none;
 }
 
 .key {
 	display: inline-block;
-	min-width: 50px;
-	height: 50px;
+	min-width: 45px;
+	height: 45px;
 	background-color: rgb(243, 243, 243);
 	border: 2px solid black;
 	border-radius: 3px;
-	font-size: 20px;
+	font-size: 18px;
 	text-align: center;
 	padding: 10px;
 	margin: 1px;
@@ -25,14 +25,14 @@
 }
 
 .key.err {
-	background: rgb(255, 0, 0);
+	background: #ff0000 !important;
 	border: 2px solid #eeeeee;
 	color: #fff;
 }
 
 div[data-key="8"] { /* Backspace */
 	width: 95px;
-	font-size: 15px;
+	font-size: 16px;
 }
 div[data-key="9"] { /* Tab */
 	width: 75px;
@@ -43,8 +43,8 @@ div[data-key="20"] { /* Capslock */
 }
 div[data-key="13"] { /* Enter */
 	position: relative;
-	width: 55px;
-	height: 102px;
+	width: 50px;
+	height: 92px;
 	float: right;
 	font-size: 16px;
 	text-align: left;
@@ -60,7 +60,7 @@ div[data-key="13"]::before { /* Enter */
 	box-sizing: border-box;
 	border-radius: 3px 0px 2px 3px;
 	width: 17px;
-	height: 49px;
+	height: 45px;
 	right: 100%;
 	top: -2px;
 }
@@ -68,7 +68,7 @@ div[data-key="16"] { /* Shift */
 	width: 75px;
 }
 div[data-key="16"] ~ div[data-key="16"] { /* Ctrl Sag */
-	width: 122px;
+	width: 112px;
 }
 div[data-key="17"] { /* Ctrl Sol */
 	width: 110px;
@@ -77,8 +77,19 @@ div[data-key="17"] ~ div[data-key="17"] { /* Ctrl Sag */
 	
 }
 div[data-key="18"] { /* Alt */
-	width: 110px;
+	width: 80px;
 }
 div[data-key="32"] { /* Space */
-	width: 323px;
+	width: 318px;
+}
+
+
+body.gece .keyboard-base {
+	background-color: #212121;
+}
+body.gece .keyboard-base .key {
+	background-color: #212121;
+}
+body.gece div[data-key="13"]::before {
+	background-color: #212121;
 }

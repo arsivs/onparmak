@@ -59,6 +59,30 @@
       "css": "keyboard",
       "code": 61724,
       "src": "fontawesome"
+    },
+    {
+      "uid": "3a6f0140c3a390bdb203f56d1bfdefcb",
+      "css": "gauge",
+      "code": 59395,
+      "src": "entypo"
+    },
+    {
+      "uid": "0133387f2069a1b3168942b84d81dd3a",
+      "css": "gamepad",
+      "code": 61723,
+      "src": "fontawesome"
+    },
+    {
+      "uid": "6364d85e960f23b9a843a506387e7970",
+      "css": "info",
+      "code": 59396,
+      "src": "typicons"
+    },
+    {
+      "uid": "51727ca007aa35ceabcaffc28934faee",
+      "css": "book",
+      "code": 59397,
+      "src": "entypo"
     }
   ]
 }

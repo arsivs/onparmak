@@ -74,9 +74,13 @@
 .icon-cancel:before { content: '\e800'; } /* '' */
 .icon-cancel-alt:before { content: '\e801'; } /* '' */
 .icon-sun:before { content: '\e802'; } /* '' */
+.icon-gauge:before { content: '\e803'; } /* '' */
+.icon-info:before { content: '\e804'; } /* '' */
+.icon-book:before { content: '\e805'; } /* '' */
 .icon-link:before { content: '\e80b'; } /* '' */
 .icon-export:before { content: '\e80c'; } /* '' */
 .icon-warning:before { content: '\e810'; } /* '' */
 .icon-down:before { content: '\f103'; } /* '' */
+.icon-gamepad:before { content: '\f11b'; } /* '' */
 .icon-keyboard:before { content: '\f11c'; } /* '' */
 .icon-moon:before { content: '\f186'; } /* '' */
