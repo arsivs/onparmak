@@ -188,10 +188,6 @@ function msg(m,c){
 	},2400);
 }
 
-function All_Array(sec,){
-	_Document.querySelectorAll(''+sec+'').forEach(function(div) {div.classList.toggle('none')});
-}
-
 
 /*
 //document.getElementById("yaz").addEventListener('click', event => {
