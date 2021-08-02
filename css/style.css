@@ -560,6 +560,14 @@ body {
 	font-size: 1.20em;
 	margin-top: 39px;
 }
+.canli_sonuc div.sure div span i {
+	position: absolute;
+	font-size: 48px;
+	top: 13px;
+	left: 16px;
+	z-index: 2;
+	cursor: pointer;
+}
 .canli_sonuc div.dks {
 	color: #527a1e !important;
 }
