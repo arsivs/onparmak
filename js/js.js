@@ -174,7 +174,6 @@ function klavye_kelimeler(){
 	_Document.querySelector('.txt_next p').classList.add("light");
 	_Document.querySelector('#text').focus();
 }
-klavye_kelimeler();
 
 function msg(m,c){
 
