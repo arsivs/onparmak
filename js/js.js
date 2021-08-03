@@ -49,7 +49,6 @@ function yaz(event){
 			}else{
 				clearInterval(zamanlama);
 				Sonuclar();
-
 			}
 			canli_sonuc.querySelector('.dks span').innerText = Math.round(sonuclar.dvr / 5);
 			canli_sonuc.querySelector('.orn span').innerText = Math.round((sonuclar.dgk - sonuclar.ynl) / sonuclar.dgk * 100);
@@ -155,6 +154,7 @@ function klavye_yenile(){
 	_Document.querySelector('.txt_typing').style.display = "block";
 	_Document.querySelector('.canli_sonuc circle').style.strokeDashoffset = "0px";
 	_Document.querySelector('.progress').classList.remove("active");
+	_Document.querySelector('.progress').style.width = "0";
 	_Document.querySelector('#text').disabled = false;
 	[ '.dks span', '.orn span', '.dgk span', '.vrs span', '.dgk .icon', '.vrs .icon'].forEach(function( iden ) {
 		_Document.querySelector(iden).innerHTML = "0";
@@ -187,6 +187,7 @@ function msg(m,c){
 		cont.querySelector('.notif').remove();
 	},2400);
 }
+
 
 
 /*
