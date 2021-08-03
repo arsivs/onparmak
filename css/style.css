@@ -568,6 +568,9 @@ body {
 	z-index: 2;
 	cursor: pointer;
 }
+.canli_sonuc div.sure div span i:active {
+	top: 15px;
+}
 .canli_sonuc div.dks {
 	color: #527a1e !important;
 }
