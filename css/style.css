@@ -211,6 +211,7 @@ body {
 	flex: 240px;
 	height: 100px;
 	color: #0f0f10;
+	font-weight: bold;
 	line-height: 130px;
 	position: relative;
 	text-decoration: none;
