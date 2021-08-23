@@ -268,7 +268,6 @@ body {
 
 
 .ayar {
-	width: 900px;
 	margin: 15px auto;
 	user-select: none;
 }
@@ -387,7 +386,6 @@ body {
 }
 
 .orta_alan .yaz {
-	width: 900px;
 	margin: auto;
 	padding: 8px 160px;
 	height: 160px;
@@ -510,7 +508,6 @@ body {
 
 .canli_sonuc {
 	display: table;
-	width: 750px;
 	margin: 20px auto;
 	text-align: center;
 }
