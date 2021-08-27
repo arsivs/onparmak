@@ -286,13 +286,20 @@ body {
 
 }
 .orta_alan .resim {
-
+	float: left;
+	width: 250px;
+	height: 200px;
+}
+.orta_alan .resim img {
+	width: 100%;
+	height: 100%;
 }
 .orta_alan .icerik {
 
 }
 .orta_alan .ust {
-
+	float: right;
+	width: 270px;
 }
 .orta_alan .alt {
 
