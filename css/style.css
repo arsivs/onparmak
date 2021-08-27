@@ -267,11 +267,20 @@ body {
 	color: #ababb0;
 }
 
+.orta_alan .orta_sag,
+.orta_alan .orta_sag {
+	background: #fff;
+	border-radius: 2px;
+	padding: 30px;
+	border: 1px solid rgba(0, 0, 0, 0.1);
+}
 .orta_alan .orta_sol {
-
+	float: left;
+	width: 590px;
 }
 .orta_alan .orta_sag {
-
+	float: right;
+	width: 300px;
 }
 
 /* Orta Alan End */
