@@ -271,7 +271,7 @@ body {
 .orta_alan .orta_sag {
 	background: #fff;
 	border-radius: 2px;
-	padding: 30px;
+	padding: 10px;
 	border: 1px solid rgba(0, 0, 0, 0.1);
 }
 .orta_alan .orta_sol {
@@ -299,7 +299,7 @@ body {
 }
 .orta_alan .ust {
 	float: right;
-	width: 270px;
+	width: 300px;
 }
 .orta_alan .alt {
 
