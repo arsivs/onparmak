@@ -20,6 +20,7 @@ body {
 	background-image: url(../images/1.png), url(../images/2.png);
 	background-position: 2% 90px, 98% 90px;
 	background-repeat: repeat-y;
+	overflow: auto;
 }
 * {
 	
@@ -185,9 +186,12 @@ body {
 /* Orta Alan Start */
 
 .orta_alan {
-	padding: 30px 0;
+	display: block;
+	width: 900px;
 	height: 100%;
-	overflow: auto;
+	margin: 30px 0;
+	margin-left: auto;
+	margin-right: auto;
 }
 .orta_alan .max_gen {
 	width: 100%;
@@ -200,10 +204,7 @@ body {
 	height: 100%;
 }
 #Blog {
-	display: table;
-	width: 900px;
-	height: 100%;
-	margin: 0 auto;
+	margin: 0;
 }
 
 .sayfa_url {
