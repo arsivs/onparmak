@@ -272,6 +272,7 @@ body {
 	background: #fff;
 	border-radius: 2px;
 	padding: 10px;
+	font-size: 0;
 	border: 1px solid rgba(0, 0, 0, 0.1);
 }
 .orta_alan .orta_sol {
@@ -300,6 +301,14 @@ body {
 .orta_alan .ust {
 	float: right;
 	width: 300px;
+	font-size: 15px;
+}
+.orta_alan .ust h2 {
+	margin: 25px 0;
+	font-size: 16px;
+}
+.orta_alan .ust a {
+
 }
 .orta_alan .alt {
 
