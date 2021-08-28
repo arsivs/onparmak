@@ -320,19 +320,28 @@ body {
 }
 .orta_sag .ic {
 	display: inline-block;
-	border: 1px solid rgba(160,160,160,.2);
+	width: 300px;
 	border-radius: 2px;
 	margin-bottom: 40px;
+	border: 1px solid rgba(160,160,160,.2);
 	overflow: hidden;
 }
 .orta_sag .kategoriler {
-
+	color: indigo;
+	background-color: #fff;
 }
 .orta_sag .kategoriler h2 {
-
+	padding: 10px 20px;
+	font-size: 16px;
 }
 .orta_sag .kategoriler a {
-
+	display: block;
+	text-decoration: none;
+	font-size: 14px;
+	font-weight: bold;
+	padding: 10px;
+	color: #888;
+	border-bottom: 1px dashed rgba(160,160,160,.2);
 }
 /* Orta Alan End */
 
