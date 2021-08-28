@@ -89,6 +89,18 @@
       "css": "reload",
       "code": 59398,
       "src": "fontawesome"
+    },
+    {
+      "uid": "930c31d4c72bd792b5dceb6de607c3e0",
+      "css": "tag",
+      "code": 59399,
+      "src": "linecons"
+    },
+    {
+      "uid": "a3f89e106175a5c5c4e9738870b12e55",
+      "css": "tags",
+      "code": 59400,
+      "src": "fontawesome"
     }
   ]
 }
