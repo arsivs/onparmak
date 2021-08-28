@@ -200,6 +200,7 @@ body {
 	height: 100%;
 }
 #Blog {
+	display: table;
 	width: 900px;
 	margin: 0 auto;
 }
