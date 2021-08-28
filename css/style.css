@@ -17,6 +17,9 @@ body {
 	-webkit-font-smoothing: antialiased;
 	line-height: 1.40;
 	background-color: #f6f6f7;
+	background-image: url(../images/1.png), url(../images/2.png);
+	background-position: 2% 10px, 98% 10px;
+	background-repeat: repeat-y;
 }
 * {
 	
@@ -185,9 +188,6 @@ body {
 	padding: 30px 0;
 	height: 100%;
 	overflow: auto;
-	background-image: url(../images/1.png), url(../images/2.png);
-	background-position: 2% 10px, 98% 10px;
-	background-repeat: repeat-y;
 }
 .orta_alan .max_gen {
 	width: 100%;
