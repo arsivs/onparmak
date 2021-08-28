@@ -304,13 +304,17 @@ body {
 	font-size: 15px;
 }
 .orta_alan .ust h2 {
-	margin: 25px 0;
+	margin: 20px 0;
 	font-size: 16px;
 }
 .orta_alan .ust a {
-
+	text-decoration: none;
+	color: initial;
 }
 .orta_alan .alt {
+
+}
+.orta_alan .alt a {
 
 }
 
