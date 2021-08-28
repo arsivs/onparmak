@@ -267,20 +267,18 @@ body {
 	color: #ababb0;
 }
 
-.orta_alan .orta_sol,
-.orta_alan .orta_sag {
+.orta_alan .orta_sol{
 	background: #fff;
 	border-radius: 2px;
 	padding: 10px;
 	font-size: 0;
-	border: 1px solid rgba(0, 0, 0, 0.1);
-}
-.orta_alan .orta_sol {
 	float: left;
 	width: 590px;
+	border: 1px solid rgba(0, 0, 0, 0.1);
 }
 .orta_alan .orta_sag {
 	float: right;
+	font-size: 0;
 	width: 300px;
 }
 .orta_alan .icerik_list {
@@ -325,8 +323,22 @@ body {
 	padding: 7px 10px;
 	border-radius: 2px;
 }
+.orta_sag .ic {
 
+}
+.orta_sag .kategoriler {
+
+}
 /* Orta Alan End */
+
+/* Reklam Start */
+.Reklam_300 {
+
+}
+.Reklam_300::after {
+
+}
+/* Reklam End */
 
 
 /* Body Gece Start */
