@@ -341,7 +341,7 @@ body {
 }
 .Reklam::after {
 	content: "Ads";
-	color: #4c4b4b;
+	color: ##d3d3d3;
 	font-size: 28px;
 	position: absolute;
 	top: 50%;
