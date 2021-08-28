@@ -288,8 +288,8 @@ body {
 }
 .orta_alan .resim {
 	float: left;
-	width: 250px;
-	height: 200px;
+	width: 220px;
+	height: 170px;
 }
 .orta_alan .resim img {
 	width: 100%;
@@ -300,11 +300,11 @@ body {
 }
 .orta_alan .ust {
 	float: right;
-	width: 300px;
+	width: 330px;
 	font-size: 15px;
 }
 .orta_alan .ust h2 {
-	margin: 15px 0;
+	margin: 10px 0;
 	font-size: 16px;
 }
 .orta_alan .ust a {
@@ -312,7 +312,7 @@ body {
 	color: initial;
 }
 .orta_alan .ust p {
-	height: 85px;
+	height: 65px;
 }
 .orta_alan .alt {
 
