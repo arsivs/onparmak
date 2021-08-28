@@ -334,6 +334,9 @@ body {
 	padding: 10px 20px;
 	font-size: 16px;
 }
+.orta_sag .Label {
+	margin: 0;
+}
 .orta_sag .kategoriler a {
 	display: block;
 	text-decoration: none;
@@ -342,6 +345,9 @@ body {
 	padding: 10px;
 	color: #888;
 	border-bottom: 1px dashed rgba(160,160,160,.2);
+}
+.orta_sag .kategoriler a:last-child {
+	border: 0;
 }
 /* Orta Alan End */
 
