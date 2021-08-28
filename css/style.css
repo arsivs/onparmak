@@ -324,7 +324,12 @@ body {
 	border-radius: 2px;
 }
 .orta_sag .ic {
-
+	display: inline-block;
+	padding: 10px;
+	border: 1px solid rgba(160,160,160,.2);
+	border-radius: 2px;
+	margin-bottom: 40px;
+	overflow: hidden;
 }
 .orta_sag .kategoriler {
 
@@ -332,11 +337,22 @@ body {
 /* Orta Alan End */
 
 /* Reklam Start */
-.Reklam_300 {
+.Reklam {
 
 }
-.Reklam_300::after {
-
+.Reklam::after {
+	content: "Ads";
+	color: #4c4b4b;
+	font-size: 28px;
+	position: absolute;
+	top: 50%;
+	left: 50%;
+	margin: -17px 0 0 -17px;
+}
+.Reklam.x300{
+	width: 300px;
+	height: 280px;
+	margin: 0 auto;
 }
 /* Reklam End */
 
