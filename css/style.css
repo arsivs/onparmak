@@ -379,6 +379,12 @@ body.gece .ust_alan .menu_ic a {
 body.gece .ust_alan .menu_ic a:hover {
 	background-color: #312f2f;
 }
+body.gece .orta_alan .orta_sol {
+	background: #212121;
+}
+body.gece .orta_alan .ust a {
+	color: #c0c0c0;
+}
 body.gece .ayar:hover {
 	color: #939aa0;
 }
