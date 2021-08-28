@@ -78,6 +78,8 @@
 .icon-info:before { content: '\e804'; } /* '' */
 .icon-book:before { content: '\e805'; } /* '' */
 .icon-reload:before { content: '\e806'; } /* '' */
+.icon-tag:before { content: '\e807'; } /* '' */
+.icon-tags:before { content: '\e808'; } /* '' */
 .icon-link:before { content: '\e80b'; } /* '' */
 .icon-export:before { content: '\e80c'; } /* '' */
 .icon-warning:before { content: '\e810'; } /* '' */
