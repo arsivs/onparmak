@@ -1,4 +1,6 @@
-﻿function msg(m,c){
+﻿var _Document = document;
+
+function msg(m,c){
 
 	var cont = _Document.querySelector('.notif-cont'),
 		div = '<div class="notif '+c+'">'+m+'</div>';
