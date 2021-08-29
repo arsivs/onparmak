@@ -319,7 +319,7 @@ body {
 }
 .orta_sag .ic {
 	display: inline-block;
-	width: 300px;
+	width: 100%;
 	border-radius: 2px;
 	margin-bottom: 40px;
 	border: 1px solid rgba(160,160,160,.2);
@@ -357,6 +357,7 @@ body {
 /* Reklam Start */
 .Reklam {
 	position: relative;
+	margin: 0 auto;
 }
 .Reklam::after {
 	content: "Ads";
@@ -368,7 +369,7 @@ body {
 	margin: -17px 0 0 -17px;
 }
 .Reklam.x300{
-	width: 300px;
+	width: 336px;
 	height: 280px;
 }
 /* Reklam End */
