@@ -347,6 +347,9 @@ body {
 	color: #888;
 	border-top: 1px dashed rgba(160,160,160,.2);
 }
+.orta_sag .kategoriler a:hover {
+    color: #0a6ebd !important;
+}
 .orta_sag .kategoriler i {
 	margin-right: 5px;
 }
