@@ -349,6 +349,9 @@ body {
 .orta_sag .kategoriler a:last-child {
 	border: 0;
 }
+.orta_sag .kategoriler a i {
+	margin-right: 5px;
+}
 /* Orta Alan End */
 
 /* Reklam Start */
