@@ -276,7 +276,9 @@ body {
 	width: 340px;
 }
 .orta_alan .icerik_list {
-
+	display: inline-block;
+	width: 100%;
+	margin-top: 10px;
 }
 .orta_alan .resim {
 	float: left;
