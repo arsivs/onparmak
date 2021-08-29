@@ -201,8 +201,7 @@ body {
 .sayfa_url {
 	display: flex;
 	flex-wrap: wrap;
-	width: 500px;
-	margin: 15px auto;
+	width: 100%;
 	font-size: 16px;
 }
 .sayfa_url a {
