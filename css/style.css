@@ -360,7 +360,7 @@ body {
 }
 .Reklam::after {
 	content: "Ads";
-	color: ##d3d3d3;
+	color: #d3d3d3;
 	font-size: 28px;
 	position: absolute;
 	top: 50%;
