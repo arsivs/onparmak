@@ -331,7 +331,7 @@ body {
 	background-color: #fff;
 }
 .orta_sag .kategoriler h2 {
-	padding: 10px 20px;
+	padding: 15px 20px;
 	font-size: 16px;
 }
 .orta_sag .Label {
@@ -344,12 +344,9 @@ body {
 	font-weight: bold;
 	padding: 10px;
 	color: #888;
-	border-bottom: 1px dashed rgba(160,160,160,.2);
+	border-top: 1px dashed rgba(160,160,160,.2);
 }
-.orta_sag .kategoriler a:last-child {
-	border: 0;
-}
-.orta_sag .kategoriler a i {
+.orta_sag .kategoriler i {
 	margin-right: 5px;
 }
 /* Orta Alan End */
