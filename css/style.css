@@ -514,3 +514,9 @@ body.gece .canli_sonuc div > div {
 	content: "\e811";
 }
 /* Notification Message Stop */
+
+@media only screen and (min-width: 1280px)  {
+	body {
+		
+	}
+}
