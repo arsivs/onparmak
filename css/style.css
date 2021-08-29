@@ -331,7 +331,8 @@ body {
 	background-color: #fff;
 }
 .orta_sag .kategoriler h2 {
-	padding: 15px 20px;
+	color: initial;
+	padding: 18px 19px;
 	font-size: 16px;
 }
 .orta_sag .Label {
