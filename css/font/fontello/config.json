@@ -101,6 +101,12 @@
       "css": "tags",
       "code": 59400,
       "src": "fontawesome"
+    },
+    {
+      "uid": "83e7b366e9b39bc4006b821f7c5efa4d",
+      "css": "folder",
+      "code": 59401,
+      "src": "typicons"
     }
   ]
 }
