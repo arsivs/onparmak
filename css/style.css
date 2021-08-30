@@ -280,7 +280,9 @@ body {
 .orta_alan .icerik_list {
 	display: inline-block;
 	width: 100%;
-	margin-top: 10px;
+	margin-bottom: 10px;
+	padding-bottom: 10px;
+	border-bottom: 1px dashed rgba(0, 0, 0, 0.1);
 }
 .orta_alan .resim {
 	float: left;
@@ -292,16 +294,19 @@ body {
 	height: 100%;
 }
 .orta_alan .icerik {
-
+	float: right;
+	width: 335px;
+	height: 170px;
 }
 .orta_alan .ust {
 	float: right;
-	width: 330px;
+	width: 100%;
 	font-size: 15px;
 }
 .orta_alan .ust h2 {
-	margin: 10px 0;
+	margin: 7px 0;
 	font-size: 16px;
+	height: 45px;
 }
 .orta_alan .ust a {
 	text-decoration: none;
@@ -309,6 +314,7 @@ body {
 }
 .orta_alan .ust p {
 	height: 65px;
+	margin: 0;
 }
 .orta_alan .alt {
 
