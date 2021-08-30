@@ -533,7 +533,7 @@ body.gece .canli_sonuc div > div {
 }
 /* Notification Message Stop */
 
-@media only screen and (min-width: 1280px)  {
+@media only screen and (max-width: 1280px)  {
 	body {
 		background-size: 125px;
 	}
