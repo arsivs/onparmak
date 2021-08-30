@@ -380,7 +380,7 @@ body {
 .alt_alan {
 	background: #262626;
 	width: 100%;
-	height: 250px;
+	min-height: 250px;
 	flex-grow: 0;
 	margin-bottom: -250px;
 }
