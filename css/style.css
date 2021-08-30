@@ -193,6 +193,7 @@ body {
 	display: block;
 	width: 950px;
 	flex-grow: 1;
+	text-align: center;
 }
 #Blog, #Blog1 {
 	display: inline-block;
