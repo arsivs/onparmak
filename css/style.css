@@ -356,6 +356,9 @@ body {
 .orta_sag .kategoriler i {
 	margin-right: 5px;
 }
+.ilk_resim {
+	display: none;
+}
 /* Orta Alan End */
 
 /* Reklam Start */
