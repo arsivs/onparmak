@@ -284,6 +284,12 @@ body {
 	padding-bottom: 10px;
 	border-bottom: 1px dashed rgba(0, 0, 0, 0.1);
 }
+.orta_alan .icerik_list:last-child {
+	margin-bottom: 0;
+	padding-bottom: 0;
+	border-bottom: 0;
+
+}
 .orta_alan .resim {
 	float: left;
 	width: 220px;
@@ -320,7 +326,7 @@ body {
 	margin: 0;
 }
 .orta_alan .alt {
-
+	margin-top: 5px;
 }
 .orta_alan .alt a {
 	display: inline-block;
