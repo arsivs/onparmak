@@ -195,10 +195,13 @@ body {
 	flex-grow: 1;
 	margin: 30px 0;
 	text-align: center;
+	font-size: 0;
 }
 #Blog, #Blog1 {
-	display: inline-block;
+	display: inline-grid;
+	width: 600px;
 	margin: 0;
+	vertical-align: top;
 	text-align: left;
 }
 
@@ -270,14 +273,13 @@ body {
 	border-radius: 2px;
 	padding: 10px;
 	font-size: 0;
-	float: left;
-	width: 590px;
 	border: 1px solid rgba(0, 0, 0, 0.1);
 }
 .orta_alan .orta_sag {
-	float: right;
-	font-size: 0;
+	display: inline-grid;
 	width: 340px;
+	margin-left: 10px;
+	text-align: left;
 }
 .orta_alan .icerik_list {
 	display: inline-block;
