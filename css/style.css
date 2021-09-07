@@ -198,7 +198,6 @@ body {
 	font-size: 0;
 }
 #Blog, #Blog1 {
-	display: inline-grid;
 	margin: 0;
 	vertical-align: top;
 	text-align: left;
@@ -275,7 +274,6 @@ body {
 	border: 1px solid rgba(0, 0, 0, 0.1);
 }
 .orta_alan .orta_sag {
-	display: inline-grid;
 	width: 340px;
 	margin-left: 10px;
 	text-align: left;
