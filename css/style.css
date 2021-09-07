@@ -194,6 +194,7 @@ body {
 	width: 950px;
 	flex-grow: 1;
 	margin: 30px 0;
+	justify-content: center;
 	text-align: center;
 	font-size: 0;
 }
