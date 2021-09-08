@@ -273,7 +273,7 @@ body {
 	border: 1px solid rgba(0, 0, 0, 0.1);
 }
 .orta_alan .orta_sag {
-	width: 340px;
+	min-width: 340px;
 	margin-left: 10px;
 	text-align: left;
 }
