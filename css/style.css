@@ -404,14 +404,23 @@ body {
 .orta_sag .populer {
 
 }
-.orta_sag .populer .section {
-
+.orta_sag .populer .section,
+.orta_sag .populer .widget  {
+	margin: 0;
 }
 .orta_sag .populer a {
-
+	display: flex;
+	align-items: center;
+	margin: 20px;
+	text-decoration: none;
+	font-size: 14px;
+	font-weight: bold;
+	color: #15161A;
 }
 .orta_sag .populer img {
-
+	width: 100px;
+	height: 65px;
+	min-width: 100px;
 }
 
 
