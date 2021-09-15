@@ -417,6 +417,12 @@ body {
 	font-weight: bold;
 	color: #15161A;
 }
+.orta_sag .populer a:first-child {
+
+}
+.orta_sag .populer img:first-child {
+
+}
 .orta_sag .populer img {
 	width: 100px;
 	height: 65px;
