@@ -339,17 +339,20 @@ body {
 	width: 100%;
 	border-radius: 2px;
 	margin-bottom: 40px;
+	background-color: #fff;
 	border: 1px solid rgba(160,160,160,.2);
 	overflow: hidden;
 }
-.orta_sag .kategoriler {
-	color: indigo;
-	background-color: #fff;
-}
-.orta_sag .kategoriler h2 {
+.orta_sag .ic h2 {
 	color: initial;
 	padding: 18px 19px;
 	font-size: 16px;
+}
+.orta_sag .ic i {
+	margin-right: 5px;
+}
+.orta_sag .kategoriler {
+	color: indigo;
 }
 .orta_sag .Label {
 	margin: 0;
@@ -366,23 +369,27 @@ body {
 .orta_sag .kategoriler a:hover {
     color: #0a6ebd !important;
 }
-.orta_sag .kategoriler i {
-	margin-right: 5px;
-}
 .orta_sag .random_post {
 
 }
 .orta_sag .random_post .rand {
-
+	display: flex;
+	flex-wrap: wrap;
+	padding: 5px;
 }
 .orta_sag .random_post .rand div {
-
+	width: calc(50% - 10px);
+	margin: 5px;
 }
 .orta_sag .random_post img {
-
+	width: 100%;
+	height: 105px;
 }
 .orta_sag .random_post a {
-
+	display: block;
+	color: #15161A;
+	font-weight: 700;
+	text-decoration: none;
 }
 .ilk_resim {
 	display: none;
