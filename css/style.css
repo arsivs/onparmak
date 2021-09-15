@@ -347,6 +347,7 @@ body {
 	color: initial;
 	padding: 18px 19px;
 	font-size: 16px;
+	border-bottom: 1px solid rgba(155,155,155,0.1);
 }
 .orta_sag .ic i {
 	margin-right: 5px;
@@ -364,7 +365,10 @@ body {
 	font-weight: bold;
 	padding: 10px;
 	color: #888;
-	border-top: 1px dashed rgba(160,160,160,.2);
+	border-bottom: 1px dashed rgba(160,160,160,.2);
+}
+.orta_sag .kategoriler a:last-child {
+	border-bottom: 0;
 }
 .orta_sag .kategoriler a:hover {
     color: #0a6ebd !important;
