@@ -375,15 +375,15 @@ body {
 .orta_sag .random_post .rand {
 	display: flex;
 	flex-wrap: wrap;
-	padding: 5px;
+	padding: 10px;
 }
 .orta_sag .random_post .rand div {
-	width: calc(50% - 10px);
-	margin: 5px;
+	width: calc(50% - 20px);
+	margin: 10px;
 }
 .orta_sag .random_post img {
 	width: 100%;
-	height: 105px;
+	height: 95px;
 }
 .orta_sag .random_post a {
 	display: block;
