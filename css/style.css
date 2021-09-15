@@ -352,6 +352,9 @@ body {
 .orta_sag .ic i {
 	margin-right: 5px;
 }
+.orta_sag .ic a:hover {
+	color: #0a6ebd !important;
+}
 .orta_sag .kategoriler {
 	color: indigo;
 }
@@ -369,9 +372,6 @@ body {
 }
 .orta_sag .kategoriler a:last-child {
 	border-bottom: 0;
-}
-.orta_sag .kategoriler a:hover {
-    color: #0a6ebd !important;
 }
 .orta_sag .random_post {
 
