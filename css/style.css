@@ -390,7 +390,7 @@ body {
 	width: 100%;
 	height: 95px;
 }
-.orta_sag .random_post a {
+.orta_sag .random_post a:last-child {
 	display: grid;
 	align-items: center;
 	overflow: hidden;
