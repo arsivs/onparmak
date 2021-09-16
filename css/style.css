@@ -418,9 +418,10 @@ body {
 	color: #15161A;
 }
 .orta_sag .populer a:first-child {
-
+	position: relative;
+	z-index: 1;
 }
-.orta_sag .populer img:first-child {
+.orta_sag .populer a:first-child img {
 
 }
 .orta_sag .populer img {
