@@ -451,6 +451,9 @@ body {
 	margin: 0;
 	transition: opacity .25s ease;
 }
+.orta_sag .populer a:first-child:active {
+	color: #fff;
+}
 .orta_sag .populer img {
 	width: 100px;
 	height: 65px;
