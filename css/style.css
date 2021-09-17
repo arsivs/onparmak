@@ -336,6 +336,11 @@ body {
 	border-radius: 2px;
 }
 .sayfa_yukle {
+	width: 100%;
+	height: 35px;
+	margin-top: 10px;
+}
+.sayfa_yukle a {
 	
 }
 .orta_sag .ic {
