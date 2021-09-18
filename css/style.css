@@ -273,7 +273,7 @@ body {
 	border: 1px solid rgba(0, 0, 0, 0.1);
 }
 .orta_alan .orta_sag {
-	min-width: 340px;
+	width: 340px;
 	margin-left: 10px;
 }
 .orta_alan .icerik_list {
