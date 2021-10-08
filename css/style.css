@@ -352,6 +352,9 @@ body {
 .sayfa_yukle a:hover {
 	background-color: #0a6ebd;
 }
+.sayfa_yukle a.disabled {
+	
+}
 .orta_sag .ic {
 	width: 100%;
 	border-radius: 2px;
