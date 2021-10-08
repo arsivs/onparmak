@@ -353,7 +353,7 @@ body {
 	background-color: #0a6ebd;
 }
 .sayfa_yukle a.disabled {
-	
+	pointer-events: none;
 }
 .orta_sag .ic {
 	width: 100%;
