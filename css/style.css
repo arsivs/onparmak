@@ -336,21 +336,22 @@ body {
 	border-radius: 2px;
 }
 .sayfa_yukle {
+	display: flex;
+	justify-content: space-between;
 	width: 100%;
 	margin-top: 10px;
-	text-align: center;
+	user-select: none;
 }
 .sayfa_yukle a {
-	display: inline-block;
 	padding: 8px 40px;
 	border-radius: 3px;
 	color: #fff;
 	font-weight: bold;
 	text-decoration: none;
-	background-color: #2d61db;
+	background-color: #2196f3;
 }
 .sayfa_yukle a:hover {
-	background-color: #0a6ebd;
+	background-color: #2d61db;
 }
 .sayfa_yukle a.disabled {
 	pointer-events: none;
