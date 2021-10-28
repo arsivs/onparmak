@@ -355,6 +355,7 @@ body {
 }
 .sayfa_yukle a.disabled {
 	pointer-events: none;
+	background-color: #ccc;
 }
 .orta_sag .ic {
 	width: 100%;
