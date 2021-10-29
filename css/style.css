@@ -358,7 +358,9 @@ body {
 	background-color: #ccc;
 }
 .sayfa_yukle .loader_more {
-	
+	width: 30px;
+	height: 30px;
+	overflow: hidden;
 }
 .orta_sag .ic {
 	width: 100%;
