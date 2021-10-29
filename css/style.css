@@ -363,17 +363,16 @@ body {
 	overflow: hidden;
 }
 .sayfa_yukle .loader_more:after {
-    content: '';
-    display: block;
-    width: 30px;
-    height: 30px;
-    box-sizing: border-box;
-    margin: 0;
-    border: 2px solid var(--border-color);
-    border-left-color: var(--main-color);
-    border-radius: 100%;
-    animation: spinner .65s infinite linear;
-    transform-origin: center;
+	content: '';
+	display: block;
+	width: 30px;
+	height: 30px;
+	box-sizing: border-box;
+	border: 2px solid #2196f3;
+	border-left-color: rgb(155 155 155 / 40%);
+	border-radius: 100%;
+	animation: spinner .65s infinite linear;
+	transform-origin: center;
 }
 
 .orta_sag .ic {
