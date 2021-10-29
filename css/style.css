@@ -357,6 +357,9 @@ body {
 	pointer-events: none;
 	background-color: #ccc;
 }
+.sayfa_yukle .loader_more {
+	
+}
 .orta_sag .ic {
 	width: 100%;
 	border-radius: 2px;
