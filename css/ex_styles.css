@@ -152,12 +152,12 @@
 	100% { transform: scale(0);}
 }
 @keyframes spinner {
-	0%{
-		-webkit-transform:rotate(0deg);
-		transform:rotate(0deg)
+	0% {
+		-webkit-transform: rotate(0deg);
+		transform: rotate(0deg);
 	}
-	to{
-		-webkit-transform:rotate(1turn);
-		transform:rotate(1turn)
+	100% {
+		-webkit-transform: rotate(360deg);
+		transform: rotate(360deg);
 	}
 }
