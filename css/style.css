@@ -358,19 +358,21 @@ body {
 	background-color: #ccc;
 }
 .sayfa_yukle .loader_more {
-	width: 30px;
-	height: 30px;
+	position: relative;
+	width: 35px;
+	height: 35px;
 	overflow: hidden;
 }
 .sayfa_yukle .loader_more:after {
 	content: '';
-	display: block;
-	width: 30px;
-	height: 30px;
-	box-sizing: border-box;
-	border: 2px solid #2196f3;
-	border-left-color: rgb(155 155 155 / 40%);
-	border-radius: 100%;
+	position: absolute;
+	top: 3px;
+	left: 3px;
+	right: 3px;
+	bottom: 3px;
+	border: 3px solid #d2d2d2;
+	border-top: 3px solid #3498db;
+	border-radius: 50%;
 	animation: spinner .65s infinite linear;
 	transform-origin: center;
 }
