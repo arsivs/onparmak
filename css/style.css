@@ -354,7 +354,7 @@ body {
 	background-color: #2d61db;
 }
 .sayfa_yukle a.disabled {
-	pointer-events: none;
+	cursor: unset;
 	background-color: #ccc;
 }
 .sayfa_yukle .loader_more {
