@@ -256,7 +256,7 @@ body {
 }
 .sayfa_url i {
 	position: absolute;
-	left: 100px;
+	left: calc(50% - 21px);
 	top: 15px;
 	font-size: 30px;
 	line-height: normal;
