@@ -595,7 +595,7 @@ body.gece .ayar .checked::after {
 }
 body.gece .orta_alan .yaz {
 	color: #fff;
-	background: linear-gradient( 90deg, transparent 0%, #161616 20%, #161616 80%, transparent 100%);
+	background: linear-gradient( 90deg, transparent 0%, #141313 20%, #141313 80%, transparent 100%);
 }
 body.gece .orta_alan .yaz:before {
 	background-image: linear-gradient(to left, rgba(255,0,0,0), rgb(22 22 22));
