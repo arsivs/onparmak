@@ -329,11 +329,15 @@ body {
 }
 .orta_alan .alt a {
 	display: inline-block;
-	background-color: #2196f3;
+	background-color: #38a9ff;
 	font-size: 14px;
-	color: #fff;
+	color: #fff !important;
 	padding: 7px 10px;
 	border-radius: 2px;
+}
+
+.orta_alan .alt a:hover {
+	background-color: #0f89e5;
 }
 .sayfa_yukle {
 	display: flex;
@@ -567,8 +571,12 @@ body.gece .ust_alan .menu_ic a {
 body.gece .ust_alan .menu_ic a:hover {
 	background-color: #312f2f;
 }
+
 body.gece .orta_alan .orta_sol {
 	background: #212121;
+}
+body.gece .orta_alan .icerik_list {
+	border-bottom-color: rgba(160, 160, 160, 0.2);
 }
 body.gece .orta_alan .alt a {
 	color: #fff;
