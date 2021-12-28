@@ -568,7 +568,11 @@ body.gece .orta_alan .orta_sol {
 	background: #212121;
 }
 body.gece .orta_alan .ust a {
-	color: #c0c0c0;
+	color: #84572a
+}
+body.gece .orta_alan .alt a {
+	color: #fff;
+	background-color: #206297;
 }
 body.gece .ayar:hover {
 	color: #939aa0;
@@ -590,7 +594,7 @@ body.gece .orta_alan .yaz:after {
 	background-image: linear-gradient(to right, rgba(255,0,0,0), rgb(22 22 22));
 }
 body.gece .sayfa_url a {
-	color: #888;
+	color: #84572a;
 }
 body.gece .sayfa_url a.disabled {
 	color: #4d4c4c;
