@@ -624,6 +624,14 @@ body.gece .orta_sag .ic h2 {
 body.gece .Reklam::after {
 	color: #4c4c4c;
 }
+
+body.gece .sayfa_yukle a {
+	color: #fff !important;
+}
+body.gece .sayfa_yukle a.disabled {
+	color: #7a7a7a !important;
+	background-color: #3a3a3a;
+}
 /* Body Gece End */
 
 
