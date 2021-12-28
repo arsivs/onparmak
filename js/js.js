@@ -4,7 +4,11 @@ function gece(e){
 
 	e.classList.toggle('gece');
 	_Document.querySelector('body').classList.toggle('gece');
-	alert();
+	if( localStorage.getItem('Gece') ){
+		localStorage.removeItem('Gece');
+	}else{
+		localStorage.setItem('Gece', true);
+	}
 }
 
 function msg(m,c){
