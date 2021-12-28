@@ -551,6 +551,9 @@ body.gece {
 body.gece a {
 	color: #84572a !important;
 }
+body.gece a:hover {
+	color: #0a6ebd !important;
+}
 
 body.gece .ust_bar {
 	box-shadow: 2px 1px #424242;
