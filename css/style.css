@@ -349,7 +349,7 @@ body {
 .sayfa_yukle a {
 	padding: 8px 40px;
 	border-radius: 3px;
-	color: #fff;
+	color: #fff !important;
 	font-weight: bold;
 	text-decoration: none;
 	background-color: #2196f3;
