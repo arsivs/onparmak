@@ -544,6 +544,10 @@ body {
 body.gece {
 	background-color: #2d2d2d;
 }
+body.gece a {
+	color: #84572a !important;
+}
+
 body.gece .ust_bar {
 	box-shadow: 2px 1px #424242;
 }
@@ -558,7 +562,6 @@ body.gece .ust_alan .menu_ic::after {
 	border-bottom-color: #1f1f1f;
 }
 body.gece .ust_alan .menu_ic a {
-	color: #888;
 	box-shadow: 0 1px #424242;
 }
 body.gece .ust_alan .menu_ic a:hover {
@@ -566,9 +569,6 @@ body.gece .ust_alan .menu_ic a:hover {
 }
 body.gece .orta_alan .orta_sol {
 	background: #212121;
-}
-body.gece .orta_alan .ust a {
-	color: #84572a
 }
 body.gece .orta_alan .alt a {
 	color: #fff;
@@ -593,9 +593,6 @@ body.gece .orta_alan .yaz:before {
 body.gece .orta_alan .yaz:after {
 	background-image: linear-gradient(to right, rgba(255,0,0,0), rgb(22 22 22));
 }
-body.gece .sayfa_url a {
-	color: #84572a;
-}
 body.gece .sayfa_url a.disabled {
 	color: #4d4c4c;
 }
@@ -616,6 +613,9 @@ body.gece .canli_sonuc div > div {
 
 body.gece .orta_sag .ic {
 	background: #212121;
+}
+body.gece .orta_sag .ic h2 {
+	color: #888;
 }
 body.gece .Reklam::after {
 	color: #4c4c4c;
