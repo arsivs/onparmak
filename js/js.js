@@ -1,5 +1,12 @@
 ﻿var _Document = document;
 
+function gece(e){
+
+	e.classList.toggle('gece');
+	_Document.querySelector('body').classList.toggle('gece');
+	alert();
+}
+
 function msg(m,c){
 
 	var cont = _Document.querySelector('.notif-cont'),
