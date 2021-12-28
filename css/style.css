@@ -613,6 +613,13 @@ body.gece .canli_sonuc div > div {
 	color: #888;
 	background-color: #212121;
 }
+
+body.gece .orta_sag .ic {
+	background: #212121;
+}
+body.gece .Reklam::after {
+	color: #4c4c4c;
+}
 /* Body Gece End */
 
 
