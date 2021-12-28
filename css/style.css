@@ -578,10 +578,6 @@ body.gece .orta_alan .orta_sol {
 body.gece .orta_alan .icerik_list {
 	border-bottom-color: rgba(160, 160, 160, 0.2);
 }
-body.gece .orta_alan .alt a {
-	color: #fff;
-	background-color: #206297;
-}
 body.gece .ayar:hover {
 	color: #939aa0;
 }
