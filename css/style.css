@@ -605,10 +605,9 @@ body.gece .orta_alan .yaz:after {
 }
 body.gece .sayfa_url a.disabled {
 	color: #4d4c4c !important;
-	background-color: #282828;
 }
-body.gece .sayfa_url a.disabled:hover {
-	
+body.gece .sayfa_url a.disabled::before {
+	background-color: #282828;
 }
 body.gece .sayfa_url a::before {
 	background-color: #212121;
