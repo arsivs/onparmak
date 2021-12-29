@@ -115,8 +115,8 @@
 }
 .notif.warning {
 	color: #ffb103;
-	border: 1px solid rgba(241, 142, 6, 0.81);
-	background-color: #67481e;
+	border: 1px solid #f18e06;
+	background-color: #4a3b26;
 }
 .notif.warning::after {
 	content: "\e810";
