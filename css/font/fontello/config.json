@@ -113,6 +113,12 @@
       "css": "error",
       "code": 59405,
       "src": "elusive"
+    },
+    {
+      "uid": "ad33e708f4d2e25c5056c931da1528d6",
+      "css": "ok-circle",
+      "code": 59402,
+      "src": "fontawesome"
     }
   ]
 }
