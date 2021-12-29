@@ -117,6 +117,7 @@
 	color: #ffb103;
 	border: 1px solid #f18e06;
 	background-color: #4a3b26;
+	box-shadow: 0px 0px 2px #ffb103;
 }
 .notif.warning::after {
 	content: "\e810";
@@ -128,7 +129,10 @@
 	content: "\e80f";
 }
 .notif.error {
-	background: #C0392B;
+	color: #ff0303;
+	border: 1px solid #d10c0b;
+	background-color: #4a2826;
+	box-shadow: 0px 0px 2px #ff0303;
 }
 .notif.error::after {
 	content: "\e811";
