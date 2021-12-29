@@ -135,7 +135,7 @@
 	box-shadow: 0px 0px 2px #ff0303;
 }
 .notif.error::after {
-	content: "\e811";
+	content: "\e80d";
 }
 /* Notification Message Stop */
 
