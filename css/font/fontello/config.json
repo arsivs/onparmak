@@ -107,6 +107,12 @@
       "css": "folder",
       "code": 59401,
       "src": "typicons"
+    },
+    {
+      "uid": "3ab229dd9bccaaaf6c71096da4b72c04",
+      "css": "error",
+      "code": 59405,
+      "src": "elusive"
     }
   ]
 }
