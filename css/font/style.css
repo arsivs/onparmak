@@ -83,6 +83,7 @@
 .icon-folder:before { content: '\e809'; } /* '' */
 .icon-link:before { content: '\e80b'; } /* '' */
 .icon-export:before { content: '\e80c'; } /* '' */
+.icon-error:before { content: '\e80d'; } /* '' */
 .icon-warning:before { content: '\e810'; } /* '' */
 .icon-down:before { content: '\f103'; } /* '' */
 .icon-gamepad:before { content: '\f11b'; } /* '' */
