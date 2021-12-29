@@ -87,8 +87,9 @@
 	border-radius: 4px;
 	padding-left: 45px;
 	position: relative;
-	opacity: 0;
+	opacity: 1;
 	overflow: hidden;
+	text-shadow: 2px 1px #00040a;
 	animation: notif 2400ms ease-in-out;
 }
 .notif::after {
@@ -98,7 +99,7 @@
 	background-color: rgb(0 0 0 / 17%);
 	font-size: 23px;
 	font-weight: 100;
-	color: #efefef;
+	color: inherit;
 	top: 0;
 	left: 0;
 	bottom: 0;
@@ -113,7 +114,9 @@
 	100% { opacity: 0; }
 }
 .notif.warning {
-	background: #FFC107;
+	color: #ffb103;
+	border: 1px solid rgba(241, 142, 6, 0.81);
+	background-color: #67481e;
 }
 .notif.warning::after {
 	content: "\e810";
