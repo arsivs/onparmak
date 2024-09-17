@@ -63,11 +63,14 @@ nav.settings {
 
 }
 .set_contain .right {
+	display: flex;
+	flex-direction: row;
 	font-family: "Roboto Mono", monospace;
 	font-size: 13px;
+	gap: 0 15px;
 }
 .set_contain .right span {
-	margin: 0 5px;
+
 }
 nav.settings .keyb_lang {
 	display: flex;
