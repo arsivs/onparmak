@@ -54,20 +54,20 @@ nav.settings {
 	justify-content: space-between;
 	align-items: center;
 	width: 700px;
-	height: 40px;
+	padding: 10px;
 	margin: 0 auto;
 	background-color: rgb(0 0 0 / 8%);
-	/* padding: 5px; */
 	border-radius: 10px;
 }
 .set_contain .left {
 
 }
 .set_contain .right {
-
+	font-family: "Roboto Mono", monospace;
+	font-size: 13px;
 }
 .set_contain .right span {
-
+	margin: 0 5px;
 }
 nav.settings .keyb_lang {
 	display: flex;
