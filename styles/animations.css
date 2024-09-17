@@ -1,0 +1,17 @@
+@keyframes pulse {
+	0% { transform: translateY(-10%); }
+	50% { transform: translateY(10%); }
+	100% { transform: translateY(-10%); }
+}
+@keyframes line {
+    0%,to { opacity: 0 }
+    50% { opacity: 1 }
+}
+@keyframes k_focus {
+    from { background-color: #e2b714; }
+    to { background-color: #2c2e31; }
+}
+@keyframes k_focus_err {
+    from { background-color: #ca4754; }
+    to { background-color: #2c2e31; }
+}
