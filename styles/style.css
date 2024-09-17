@@ -50,7 +50,9 @@ nav.settings {
 
 }
 .set_contain {
-
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
 }
 .set_contain .left {
 
