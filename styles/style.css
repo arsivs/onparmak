@@ -59,7 +59,8 @@ nav.settings {
 
 }
 nav.settings .keyb_lang {
-
+	display: flex;
+	justify-content: center;
 }
 nav.settings .keyb_lang i {
 
