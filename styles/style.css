@@ -7,6 +7,8 @@ nav.contain nav {
 	display: table-row;
 	vertical-align: top;
 }
+
+/* Nav Top Start */
 nav.top {
 	/* background-color: #000000; */
 }
@@ -42,6 +44,31 @@ nav.top {
 .top_contain .right i:active {
 	color: #646669;
 }
+/* Nav Top End */
+
+/* Nav Settings Start */
+nav.settings {
+
+}
+.set_contain {
+
+}
+.set_contain .left {
+
+}
+.set_contain .right {
+
+}
+.set_contain .keyb_lang {
+
+}
+.set_contain .keyb_lang i {
+
+}
+/* Nav Settings End */
+
+
+
 nav.middle {
 	
 }
