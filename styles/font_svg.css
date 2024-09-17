@@ -19,12 +19,16 @@
   }
 }
 */
+[class^="icon-"], [class*=" icon-"] {
+  display: inline-block;
+  margin-right: 5px;
+  vertical-align: middle;
+}
 [class^="icon-"]:before, [class*=" icon-"]:before {
   font-family: "fontello";
   font-style: normal;
   font-weight: normal;
   display: inline-block;
-  margin-right: 5px;
   text-align: center;
   vertical-align: middle;
   -webkit-font-smoothing: antialiased;
