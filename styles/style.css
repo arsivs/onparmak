@@ -31,7 +31,7 @@ nav.top {
 	vertical-align: middle;
 }
 .top_contain .right i {
-	font-size: 24px;
+	font-size: 22px;
 	color: #646669;
 	margin-left: 15px;
 	transition: color .125s;
@@ -73,6 +73,10 @@ nav.settings {
 }
 .set_contain span.active {
 	color: #e2b714;
+}
+.set_contain .right::before {
+	content: '\e807';
+	font-family: "fontello";
 }
 nav.settings .keyb_lang {
 	display: flex;
