@@ -78,6 +78,7 @@ nav.settings {
 .set_contain .right::before {
 	content: '\e807';
 	font-family: "fontello";
+	margin-right: -7px;
 }
 nav.settings .keyb_lang {
 	display: flex;
