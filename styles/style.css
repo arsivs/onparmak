@@ -63,13 +63,13 @@ nav.settings {
 .set_contain .left {
 	display: flex;
 	flex-direction: row;
-	gap: 0 14px;
+	gap: 0 25px;
 }
 .set_contain .right {
 	display: flex;
 	flex-direction: row;
 	font-family: "Roboto Mono", monospace;
-	gap: 0 14px;
+	gap: 0 25px;
 }
 .set_contain span.active {
 	color: #e2b714;
