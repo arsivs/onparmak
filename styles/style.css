@@ -68,6 +68,7 @@ nav.settings {
 .set_contain .right {
 	display: flex;
 	flex-direction: row;
+	align-items: center;
 	font-family: "Roboto Mono", monospace;
 	gap: 0 25px;
 }
