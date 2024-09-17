@@ -1,8 +1,3 @@
-@import url("font_svg.css");
-@import url("keyboard_wrt.css");
-@import url("keyboard.css");
-@import url("animations.css");
-
 nav.contain {
 	display: table;
 	width: 100%;
