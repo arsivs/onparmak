@@ -39,6 +39,9 @@ nav.top {
 .top_contain .right i:hover {
 	color: #d1d0c5;
 }
+.top_contain .right i:active {
+	color: #646669;
+}
 nav.middle {
 	
 }
