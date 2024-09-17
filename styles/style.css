@@ -58,6 +58,9 @@ nav.settings {
 .set_contain .right {
 
 }
+.set_contain .right span {
+
+}
 nav.settings .keyb_lang {
 	display: flex;
 	justify-content: center;
