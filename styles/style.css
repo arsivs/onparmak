@@ -1,7 +1,8 @@
 nav.contain {
 	display: table;
-	width: 100%;
+	width: 1200px;
 	height: 100%;
+	margin: 0 auto;
 }
 nav.contain nav {
 	display: table-row;
@@ -16,9 +17,7 @@ nav.top {
 	display: flex;
 	justify-content: space-between;
 	align-items: center;
-	width: 1200px;
 	height: 80px;
-	margin: 0 auto;
 }
 .top_contain .left i {
 	font-size: 36px;
