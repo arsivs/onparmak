@@ -56,25 +56,22 @@ nav.settings {
 	width: 500px;
 	background-color: rgb(0 0 0 / 5%);
 	font-size: 13px;
-	padding: 7px 14px;
 	margin: 0 auto;
 	border-radius: 10px;
 }
 .set_contain .left {
 	display: flex;
 	flex-direction: row;
-	gap: 0 25px;
 }
 .set_contain .right {
+	position: relative;
 	display: flex;
 	flex-direction: row;
 	align-items: center;
 	font-family: "Roboto Mono", monospace;
-	gap: 0 25px;
-	padding-left: 14px;
-	border-left: 1px solid #454545;
 }
 .set_contain span {
+	padding: 4px 12px;
 	cursor: pointer;
 	transition: color .125s;
 }
@@ -91,6 +88,10 @@ nav.settings {
 	content: '\e807';
 	font-family: "fontello";
 	margin-right: -7px;
+}
+.set_contain .right::after {
+	content: '';
+	position: absolute;
 }
 nav.settings .keyb_lang {
 	display: flex;
