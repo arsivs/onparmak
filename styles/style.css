@@ -71,6 +71,8 @@ nav.settings {
 	align-items: center;
 	font-family: "Roboto Mono", monospace;
 	gap: 0 25px;
+	padding-left: 14px;
+	border-left: 1px solid #454545;
 }
 .set_contain span.active {
 	color: #e2b714;
