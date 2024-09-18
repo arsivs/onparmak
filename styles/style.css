@@ -77,7 +77,7 @@ nav.settings {
 .set_contain span {
 	transition: color .125s;
 }
-.set_contain span.hover {
+.set_contain span:hover {
 	color: #d1d0c5;
 }
 .set_contain span.active {
