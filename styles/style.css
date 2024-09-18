@@ -75,6 +75,7 @@ nav.settings {
 	border-left: 1px solid #454545;
 }
 .set_contain span {
+	cursor: pointer;
 	transition: color .125s;
 }
 .set_contain span:hover {
