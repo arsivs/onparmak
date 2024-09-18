@@ -80,6 +80,9 @@ nav.settings {
 .set_contain span:hover {
 	color: #d1d0c5;
 }
+.set_contain span:active {
+	color: inherit;
+}
 .set_contain span.active {
 	color: #e2b714;
 }
