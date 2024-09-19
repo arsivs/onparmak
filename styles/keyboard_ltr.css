@@ -33,7 +33,10 @@
 	filter: blur(4px);
 	transition: all 300ms;
 }
-.word .txt_wrt p {
+.letter .txt_wrt .typing {
+	display: none;
+}
+.letter .txt_wrt p {
 	display: inline-block;
 	font-size: 30px;
 	padding-right: 10px;
