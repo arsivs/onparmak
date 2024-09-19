@@ -33,21 +33,20 @@
 	transition: all 300ms;
 	overflow: hidden;
 }
-.letter .txt_wrt .typing {
+.letter .txt_wrt .typing,
+.letter .txt_wrt .prev,
+.letter .txt_wrt .txt {
 	display: none;
 }
 .letter .txt_wrt p {
+	position: relative;
 	display: inline-block;
 	font-size: 30px;
 	padding-right: 10px;
 }
-.letter .txt_wrt .prev {
-
-}
-.letter .txt_wrt .txt {
-
-}
-.letter .txt_wrt .txt .line {
+.letter .txt_wrt p.light {
+	content: "";
+	position: absolute;
 	width: 2px;
 	height: 36px;
 	background-color: #e2b714;
@@ -56,7 +55,7 @@
 	opacity: 0;
 	transform: translateX(-1px) translateY(-3px);
 }
-.txt_contain.letter:focus .line {
+.txt_contain.letter:focus p.light {
 	animation: line 1s infinite;
 }
 .letter .txt_wrt .next {
