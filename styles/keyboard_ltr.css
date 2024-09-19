@@ -52,7 +52,7 @@
 	padding: 0;
 	transition: width 1s;
 }
-.txt_wrt .next p.prev::before {
+.txt_wrt .next p.prev::after {
 	content: "";
 	position: absolute;
 	width: 2px;
@@ -62,6 +62,6 @@
 	opacity: 0;
 	transform: translateX(-2px) translateY(1px);
 }
-.txt_contain.letter:focus .next p.prev::before {
+.txt_contain.letter:focus .next p.prev::after {
 	animation: line 1s infinite;
 }
