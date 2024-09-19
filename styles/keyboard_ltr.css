@@ -27,6 +27,7 @@
 	display: flex;
 	justify-content: center;
 	height: 140px;
+	padding: 0 10px;
 	letter-spacing: 2px;
 	opacity: .25;
 	filter: blur(4px);
@@ -50,10 +51,9 @@
 	width: 2px;
 	height: 36px;
 	background-color: #e2b714;
-	padding: 0;
 	border-radius: 2px;
 	opacity: 0;
-	transform: translateX(-1px) translateY(-3px);
+	transform: translateX(-2px) translateY(1px);
 }
 .txt_contain.letter:focus p.light::before {
 	animation: line 1s infinite;
