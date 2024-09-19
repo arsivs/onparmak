@@ -1,11 +1,11 @@
-.txt_contain {
+.txt_contain.word {
 	position: relative;
 	display: flex;
 	justify-content: center;
 	padding: 30px 0;
 	font-family: "Vazirmatn", sans-serif;
 }
-.txt_contain .blur {
+.txt_contain.word .blur {
 	position: absolute;
 	top: 50%;
 	transform: translateY(-50%);
@@ -14,15 +14,15 @@
     opacity: 1;
     transition: all 500ms;
 }
-.txt_contain:focus .blur {
+.txt_contain.word:focus .blur {
 	opacity: 0;
 	z-index: -1;
 }
-.txt_contain:focus .txt_wrt {
+.txt_contain.word:focus .txt_wrt {
 	opacity: unset;
 	filter: none;
 }
-.txt_wrt {
+.word .txt_wrt {
 	position: relative;
 	display: flex;
 	justify-content: center;
@@ -33,13 +33,13 @@
 	filter: blur(4px);
 	transition: all 300ms;
 }
-.txt_wrt p {
+.word .txt_wrt p {
 	display: inline-block;
 	font-size: 30px;
 	padding-right: 10px;
 }
-.txt_wrt .prev:before,
-.txt_wrt .next:after {
+.word .txt_wrt .prev:before,
+.word .txt_wrt .next:after {
     content: "";
     position: absolute;
     width: 130px;
@@ -48,12 +48,12 @@
     left: 0;
     background-image: linear-gradient(to left, rgba(255, 0, 0, 0), #323437);
 }
-.txt_wrt .next:after {
+.word .txt_wrt .next:after {
 	left: initial;
 	right: 0;
 	background-image: linear-gradient(to right, rgba(255, 0, 0, 0), #323437);
 }
-.txt_wrt .prev {
+.word .txt_wrt .prev {
 	position: relative;
 	display: flex;
 	flex-direction: row-reverse;
@@ -62,19 +62,19 @@
 	width: 170px;
 	overflow: hidden;
 }
-.txt_wrt .prev p {
+.word .txt_wrt .prev p {
 	padding: 0 0 0 10px;
 }
-.txt_wrt .prev p.light {
+.word .txt_wrt .prev p.light {
 	color: #06f;
 }
-.txt_wrt .prev p.red {
+.word .txt_wrt .prev p.red {
 	color: tomato;
 }
-.txt_wrt .prev p.err {
+.word .txt_wrt .prev p.err {
 	text-decoration: line-through;
 }
-.txt_wrt .typing {
+.word .txt_wrt .typing {
 	position: absolute;
 	left: 12px;
 	color: #000;
@@ -85,7 +85,7 @@
 	z-index: 2;
 	animation: pulse 1.2s infinite ease-out;
 }
-.txt_wrt .typing:after {
+.word .txt_wrt .typing:after {
 	content: "";
 	position: absolute;
 	border-style: solid;
@@ -95,10 +95,10 @@
 	left: 100%;
 	transform: translateY(-50%);
 }
-.txt_wrt .txt {
+.word .txt_wrt .txt {
 	position: relative;
 }
-.txt_wrt .txt .line {
+.word .txt_wrt .txt .line {
 	width: 2px;
 	height: 36px;
 	background-color: #e2b714;
@@ -107,10 +107,10 @@
 	opacity: 0;
 	transform: translateX(-1px) translateY(-3px);
 }
-.txt_contain:focus .line {
+.word .txt_contain:focus .line {
 	animation: line 1s infinite;
 }
-.txt_wrt .next {
+.word .txt_wrt .next {
 	display: flex;
 	flex-direction: row;
 	width: 750px;
