@@ -39,20 +39,13 @@
 .letter .txt_wrt .txt {
 	display: none;
 }
-.letter .txt_wrt p {
+.letter .txt_wrt .next p {
 	position: relative;
 	display: inline-block;
 	font-size: 30px;
 	padding-right: 10px;
 }
-.letter .txt_wrt .next {
-
-}
-.txt_wrt .next p.prev {
-	padding: 0;
-	transition: width 1s;
-}
-.txt_wrt .next p.prev::after {
+.txt_wrt .next p.prev::before {
 	content: "";
 	position: absolute;
 	width: 2px;
@@ -62,6 +55,12 @@
 	opacity: 0;
 	transform: translateX(-2px) translateY(1px);
 }
-.txt_contain.letter:focus .next p.prev::after {
+.txt_contain.letter:focus p.prev::before {
 	animation: line 1s infinite;
+}
+.letter .txt_wrt .next {
+
+}
+.txt_wrt .next p.prev {
+	padding: 0;
 }
