@@ -39,13 +39,13 @@
 .letter .txt_wrt .txt {
 	display: none;
 }
-.letter .txt_wrt .next p {
+.letter .txt_wrt p {
 	position: relative;
 	display: inline-block;
 	font-size: 30px;
 	padding-right: 10px;
 }
-.txt_wrt .next p.prev::before {
+.letter .txt_wrt p.light::before {
 	content: "";
 	position: absolute;
 	width: 2px;
@@ -55,7 +55,7 @@
 	opacity: 0;
 	transform: translateX(-2px) translateY(1px);
 }
-.txt_contain.letter:focus p.prev::before {
+.txt_contain.letter:focus p.light::before {
 	animation: line 1s infinite;
 }
 .letter .txt_wrt .next {
