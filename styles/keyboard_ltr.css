@@ -26,12 +26,12 @@
 	position: relative;
 	display: flex;
 	justify-content: center;
-	align-items: center;
-	color: #646669;
+	height: 140px;
 	letter-spacing: 2px;
 	opacity: .25;
 	filter: blur(4px);
 	transition: all 300ms;
+	overflow: hidden;
 }
 .letter .txt_wrt .typing {
 	display: none;
@@ -40,4 +40,13 @@
 	display: inline-block;
 	font-size: 30px;
 	padding-right: 10px;
+}
+.letter .txt_wrt .prev {
+
+}
+.letter .txt_wrt .txt {
+
+}
+.letter .txt_wrt .next {
+	
 }
