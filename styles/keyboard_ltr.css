@@ -61,3 +61,6 @@
 .letter .txt_wrt .next {
 
 }
+.txt_wrt .next p.prev {
+	padding: 0;
+}
