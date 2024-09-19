@@ -107,7 +107,7 @@
 	opacity: 0;
 	transform: translateX(-1px) translateY(-3px);
 }
-.word .txt_contain:focus .line {
+.txt_contain.word:focus .line {
 	animation: line 1s infinite;
 }
 .word .txt_wrt .next {
