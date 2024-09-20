@@ -48,7 +48,8 @@
 	position: absolute;
 	left: 10px;
 	opacity: 0;
-	transform: translateX(-2px) translateY(5px);
+	transition: left 1s;
+	transform: translateX(-2px) translateY(2px);
 }
 .letter .txt_wrt .txt .line {
 	width: 2px;
