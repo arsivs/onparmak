@@ -45,7 +45,10 @@
 	font-size: 30px;
 	padding-right: 10px;
 }
-.letter .txt_wrt p.light::before {
+.letter .txt_wrt .next {
+	position: relative;
+}
+.letter .txt_wrt .next::before {
 	content: "";
 	position: absolute;
 	width: 2px;
@@ -55,11 +58,8 @@
 	opacity: 0;
 	transform: translateX(-2px) translateY(1px);
 }
-.txt_contain.letter:focus p.light::before {
+.txt_contain.letter:focus .next::before {
 	animation: line 1s infinite;
-}
-.letter .txt_wrt .next {
-
 }
 .txt_wrt .next p.prev {
 	padding: 0;
