@@ -43,10 +43,13 @@
 	display: inline-block;
 	font-size: 30px;
 	padding-right: 10px;
+	line-height: 1.547em;
 }
+/*
 .letter .txt_wrt p.light::before {
 	content: '\feff';
 }
+*/
 .letter .txt_wrt .txt {
 	position: absolute;
 	left: 10px;
