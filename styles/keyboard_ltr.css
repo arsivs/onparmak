@@ -35,8 +35,7 @@
 	overflow: hidden;
 }
 .letter .txt_wrt .typing,
-.letter .txt_wrt > .prev,
-.letter .txt_wrt .txt {
+.letter .txt_wrt > .prev {
 	display: none;
 }
 .letter .txt_wrt p {
@@ -45,20 +44,19 @@
 	font-size: 30px;
 	padding-right: 10px;
 }
-.letter .txt_wrt .next {
+.letter .txt_wrt .txt {
 	position: relative;
 }
-.letter .txt_wrt .next::before {
-	content: "";
-	position: absolute;
+.letter .txt_wrt .txt .line {
 	width: 2px;
 	height: 36px;
 	background-color: #e2b714;
+	padding: 0;
 	border-radius: 2px;
 	opacity: 0;
-	transform: translateX(-2px) translateY(1px);
+	transform: translateX(-2px) translateY(-5px);
 }
-.txt_contain.letter:focus .next::before {
+.txt_contain.letter:focus .line {
 	animation: line 1s infinite;
 }
 .txt_wrt .next p.prev {
