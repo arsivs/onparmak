@@ -48,6 +48,12 @@
 .letter .txt_wrt p.light::before {
 	content: '\feff';
 }
+.letter .txt_wrt p.red {
+	color: tomato;
+}
+.letter .txt_wrt p.err {
+	text-decoration: line-through;
+}
 .letter .txt_wrt .txt {
 	position: absolute;
 	left: 10px;
