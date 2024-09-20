@@ -44,6 +44,9 @@
 	font-size: 30px;
 	padding-right: 10px;
 }
+.letter .txt_wrt p::before {
+	content: '\00a0';
+}
 .letter .txt_wrt .txt {
 	position: absolute;
 	left: 10px;
