@@ -44,9 +44,11 @@
 	padding-right: 10px;
 	line-height: 1.547em;
 }
+/*
 .letter .txt_wrt p.light::before {
 	content: '\feff';
 }
+*/
 .letter .txt_wrt p.red {
 	color: tomato;
 }
