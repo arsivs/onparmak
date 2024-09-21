@@ -26,7 +26,6 @@
 	position: relative;
 	display: flex;
 	justify-content: center;
-	height: 140px;
 	padding: 0 10px;
 	letter-spacing: 2px;
 	opacity: .25;
@@ -70,6 +69,12 @@
 }
 .txt_contain.letter:focus .txt {
 	animation: line 1s infinite;
+}
+.letter .txt_wrt .next {
+    display: flex;
+    flex-direction: row;
+    height: 140px;
+    flex-wrap: wrap;
 }
 .txt_wrt .next p.prev {
 	padding: 0;
