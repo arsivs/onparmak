@@ -42,7 +42,7 @@
 	left: 10px;
 	opacity: 0;
 	transition: left 400ms;
-	transform: translateX(-2px) translateY(2px);
+	transform: translateX(-1px) translateY(2px);
 }
 .letter .txt_wrt .txt .line {
 	width: 2px;
@@ -61,7 +61,6 @@
     flex-wrap: wrap;
 }
 .txt_wrt .next > p {
-	position: relative;
 	display: inline-flex;
 	font-size: 30px;
 	padding-right: 10px;
