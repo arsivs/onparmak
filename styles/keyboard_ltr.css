@@ -62,7 +62,7 @@
 }
 .txt_wrt .next > p {
 	position: relative;
-	display: inline-block;
+	display: inline-flex;
 	font-size: 30px;
 	padding-right: 10px;
 	line-height: 1.547em;
