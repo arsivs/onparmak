@@ -78,3 +78,6 @@
 .txt_wrt .next p.err {
 	text-decoration: line-through;
 }
+.txt_wrt .next .light {
+	display: inline-flex;
+}
