@@ -55,10 +55,13 @@
 	animation: line 1s infinite;
 }
 .letter .txt_wrt .next {
-    display: flex;
-    flex-direction: row;
-    height: 140px;
-    flex-wrap: wrap;
+	display: flex;
+	flex-direction: row;
+	height: 140px;
+	flex-wrap: wrap;
+	word-break: break-word;
+	word-wrap: break-word;
+	overflow: hidden;
 }
 .txt_wrt .next > p {
 	display: inline-flex;
