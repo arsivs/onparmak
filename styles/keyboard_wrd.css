@@ -113,6 +113,8 @@
 .word .txt_wrt .next {
 	display: flex;
 	flex-direction: row;
+	align-items: center;
 	width: 750px;
+	height: 140px;
 	overflow: hidden;
 }
