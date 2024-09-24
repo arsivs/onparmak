@@ -63,7 +63,7 @@
 	word-wrap: break-word;
 	overflow: hidden;
 }
-.txt_wrt .next > p {
+.letter .txt_wrt .next > p {
 	display: inline-flex;
 	font-size: 30px;
 	padding-right: 10px;
@@ -74,12 +74,12 @@
 	content: '\feff';
 }
 */
-.txt_wrt .next p.red {
+.letter .txt_wrt .next p.red {
 	color: tomato;
 }
-.txt_wrt .next p.err {
+.letter .txt_wrt .next p.err {
 	text-decoration: line-through;
 }
-.txt_wrt .next .light {
+.letter .txt_wrt .next .light {
 	display: inline-flex;
 }
