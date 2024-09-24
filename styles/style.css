@@ -70,6 +70,7 @@ nav.settings {
 	align-items: center;
 	font-family: "Roboto Mono", monospace;
 }
+
 .set_contain span {
 	padding: 4px 12px;
 	cursor: pointer;
@@ -83,6 +84,9 @@ nav.settings {
 }
 .set_contain span.active {
 	color: #e2b714;
+}
+.set_contain span i {
+	pointer-events:none;
 }
 .set_contain .right::before {
 	content: '\e807';
