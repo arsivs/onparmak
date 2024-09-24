@@ -27,6 +27,7 @@
 	display: flex;
 	justify-content: center;
 	align-items: center;
+	font-size: 30px;
 	color: #646669;
 	letter-spacing: 2px;
 	opacity: .25;
@@ -35,7 +36,6 @@
 }
 .word .txt_wrt .next > p {
 	display: inline-flex;
-	font-size: 30px;
 	padding-right: 10px;
 }
 .word .txt_wrt .prev:before,
