@@ -106,6 +106,7 @@ nav.settings .keyb_lang {
 	align-items: center;
 	font-size: 13px;
 	margin-top: 25px;
+	cursor: pointer;
 }
 nav.settings .keyb_lang i {
 	font-size: 18px;
