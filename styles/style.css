@@ -88,6 +88,9 @@ nav.settings {
 .set_contain span i {
 	pointer-events:none;
 }
+.set_contain span i.icon-letter {
+	margin-top: -2px;
+}
 .set_contain .right::before {
 	content: '\e807';
 	font-family: "fontello";
