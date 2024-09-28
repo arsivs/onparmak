@@ -105,6 +105,7 @@ nav.settings .keyb_lang {
 	margin-top: 25px;
 	font-size: 13px;
 	cursor: pointer;
+	transition: color .125s;
 }
 nav.settings .keyb_lang:hover {
 	color: #d1d0c5;
