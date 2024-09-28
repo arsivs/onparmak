@@ -47,7 +47,7 @@ nav.top {
 
 /* Nav Settings Start */
 nav.settings {
-
+	text-align: center;
 }
 .set_contain {
 	display: flex;
@@ -101,11 +101,9 @@ nav.settings {
 	border-left: 1px solid #646669;
 }
 nav.settings .keyb_lang {
-	display: flex;
-	justify-content: center;
-	align-items: center;
-	font-size: 13px;
+	display: inline-block;
 	margin-top: 25px;
+	font-size: 13px;
 	cursor: pointer;
 }
 nav.settings .keyb_lang i {
