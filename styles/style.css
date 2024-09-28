@@ -106,6 +106,9 @@ nav.settings .keyb_lang {
 	font-size: 13px;
 	cursor: pointer;
 }
+nav.settings .keyb_lang:hover {
+	color: #d1d0c5;
+}
 nav.settings .keyb_lang i {
 	font-size: 18px;
 }
