@@ -119,10 +119,71 @@ nav.settings .keyb_lang i {
 /* Nav Settings End */
 
 
-
 nav.middle {
 	
 }
 nav.bottom {
 	height: 60px;
 }
+
+
+/* Html Popup Start */
+.bg_popup {
+	display: none;
+	position: absolute;
+	top: 0;
+	left: 0;
+	right: 0;
+	bottom: 0;
+	z-index: 10;
+	background: rgb(0 0 0 / 60%);
+}
+.bg_popup.active {
+	display: block;
+	animation: fade-in .250s;
+}
+.bg_popup.none {
+	animation: fade-out .250s forwards;
+}
+.bg_popup .content {
+	display: flex;
+	flex-direction: column;
+	align-items: flex-start;
+	width: 400px;
+	padding: 15px;
+	border-radius: 7px;
+	margin: 80px auto 0;
+	background-color: #323437;
+}
+.bg_popup .content h1 {
+	width: 100%;
+	font-size: 18px;
+	padding-bottom: 7px;
+	text-indent: 10px;
+	border-bottom: 1px solid #555;
+	font-family: "Roboto Mono", monospace;
+}
+.bg_popup .middle {
+	display: flex;
+	flex-direction: column;
+	width: 100%;
+	padding: 14px 0;
+}
+.bg_popup .middle > div {
+	position: relative;
+	padding: 5px 10px;
+	text-indent: 10px;
+}
+.bg_popup .middle > div:hover {
+	cursor: pointer;
+	color: #bbb;
+	background-color: #35383b;
+}
+.bg_popup .middle > div.active::after {
+	position: absolute;
+	content: '\e809';
+	font-family: "fontello";
+	top: 7px;
+	right: 10px;
+}
+/* Html Popup End */
