@@ -1,0 +1,140 @@
+nav.contain {
+	display: table;
+	width: 1200px;
+	height: 100%;
+	margin: 0 auto;
+}
+nav.contain nav {
+	display: table-row;
+	vertical-align: top;
+}
+
+/* Nav Top Start */
+nav.top {
+	/* background-color: #000000; */
+}
+.top_contain {
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+	height: 80px;
+}
+.top_contain .left i {
+	font-size: 36px;
+	color: #e2b714;
+}
+.top_contain .left h1 {
+	display: inline-block;
+	font-family: "Lexend Deca", sans-serif;
+	color: #d1d0c5;
+	font-size: 22px;
+	vertical-align: middle;
+}
+.top_contain .right i {
+	font-size: 22px;
+	color: #646669;
+	margin-left: 15px;
+	transition: color .125s;
+	cursor: pointer;
+}
+.top_contain .right i:hover {
+	color: #d1d0c5;
+}
+.top_contain .right i:active {
+	color: #646669;
+}
+/* Nav Top End */
+
+/* Nav Settings Start */
+nav.settings {
+	text-align: center;
+}
+
+
+
+
+
+nav.settings .keyb_lang {
+	display: inline-block;
+	margin-top: 25px;
+	font-size: 13px;
+	cursor: pointer;
+	transition: color .125s;
+}
+nav.settings .keyb_lang:hover {
+	color: #d1d0c5;
+}
+nav.settings .keyb_lang i {
+	font-size: 18px;
+}
+/* Nav Settings End */
+
+
+nav.middle {
+	
+}
+nav.bottom {
+	height: 60px;
+}
+
+
+/* Html Popup Start */
+.bg_popup {
+	display: none;
+	position: absolute;
+	top: 0;
+	left: 0;
+	right: 0;
+	bottom: 0;
+	z-index: 10;
+	background: rgb(0 0 0 / 60%);
+}
+.bg_popup.active {
+	display: block;
+	animation: fade-in .250s;
+}
+.bg_popup.none {
+	animation: fade-out .250s forwards;
+}
+.bg_popup .content {
+	display: flex;
+	flex-direction: column;
+	align-items: flex-start;
+	width: 400px;
+	padding: 15px;
+	border-radius: 7px;
+	margin: 80px auto 0;
+	background-color: #323437;
+}
+.bg_popup .content h1 {
+	width: 100%;
+	font-size: 18px;
+	padding-bottom: 7px;
+	text-indent: 10px;
+	border-bottom: 1px solid #555;
+	font-family: "Roboto Mono", monospace;
+}
+.bg_popup .middle {
+	display: flex;
+	flex-direction: column;
+	width: 100%;
+	padding: 14px 0;
+}
+.bg_popup .middle > div {
+	position: relative;
+	padding: 5px 10px;
+	text-indent: 10px;
+}
+.bg_popup .middle > div:hover {
+	cursor: pointer;
+	color: #bbb;
+	background-color: #35383b;
+}
+.bg_popup .middle > div.active::after {
+	position: absolute;
+	content: '\e809';
+	font-family: "fontello";
+	top: 7px;
+	right: 10px;
+}
+/* Html Popup End */
