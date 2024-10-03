@@ -69,6 +69,7 @@ nav.settings {
 	flex-direction: row;
 	align-items: center;
 	font-family: "Roboto Mono", monospace;
+	overflow: hidden;
 }
 
 .set_contain span {
@@ -103,6 +104,9 @@ nav.settings {
 	height: 14px;
 	border-left: 1px solid #646669;
 }
+
+
+
 nav.settings .keyb_lang {
 	display: inline-block;
 	margin-top: 25px;
