@@ -49,57 +49,8 @@ nav.top {
 nav.settings {
 	text-align: center;
 }
-.set_contain {
-	display: flex;
-	justify-content: space-between;
-	align-items: center;
-	width: 500px;
-	background-color: rgb(0 0 0 / 5%);
-	font-size: 13px;
-	margin: 0 auto;
-	border-radius: 10px;
-}
-.set_contain .left {
-	display: flex;
-	flex-direction: row;
-}
-.set_contain .right {
-	position: relative;
-	display: flex;
-	flex-direction: row;
-	align-items: center;
-	font-family: "Roboto Mono", monospace;
-	overflow: hidden;
-}
 
-.set_contain span {
-	padding: 4px 12px;
-	cursor: pointer;
-	transition: color .125s;
-}
-.set_contain span:hover {
-	color: #d1d0c5;
-}
-.set_contain span:active {
-	color: inherit;
-}
-.set_contain span.active {
-	color: #e2b714;
-}
-.set_contain span i {
-	pointer-events:none;
-}
-.set_contain span i.icon-letter {
-	margin-top: -2px;
-}
-.set_contain .right::before {
-	content: '';
-	position: absolute;
-	left: 0;
-	width: 1px;
-	height: 14px;
-	border-left: 1px solid #646669;
-}
+
 
 
 
