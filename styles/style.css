@@ -49,10 +49,81 @@ nav.top {
 nav.settings {
 	text-align: center;
 }
+.set_contain {
+	display: flex;
+	justify-content: space-between;
+	align-items: stretch;
+	width: 500px;
+	height: 30px;
+	background-color: rgb(0 0 0 / 5%);
+	font-size: 13px;
+	margin: 0 auto;
+	border-radius: 10px;
+}
+.set_contain > div {
+    align-content: center;
+}
+.set_contain button {
+	display: inline-block;
+	padding: 7px 10px;
+	cursor: pointer;
+	transition: color .125s;
+	border: none;
+	background: none;
+	color: inherit;
+}
+.set_contain button:hover {
+	color: #d1d0c5;
+}
+.set_contain button:active {
+	color: inherit;
+}
+.set_contain button.active {
+	color: #e2b714;
+}
+.set_contain button i {
+	pointer-events:none;
+}
+.set_contain button i.icon-letter {
+	margin-top: -2px;
+}
 
-
-
-
+.set_contain .right {
+	position: relative;
+	display: inline-flex;
+	font-family: "Roboto Mono", monospace;
+	overflow: hidden;
+}
+.set_contain .right::before {
+	content: '';
+	position: absolute;
+	top: 8px;
+	left: 0;
+	width: 1px;
+	height: 14px;
+	border-left: 1px solid #646669;
+}
+.set_contain .right .x1 {
+	padding-left: 10px;
+	flex-wrap: wrap;
+	width: 170px;
+	transition-duration: 250ms;
+	transform: translateY(0);
+}
+.set_contain .right > div {
+	display: inline-flex;
+}
+.set_contain .right button {
+	width: 40px;
+	padding: 7px 0;
+}
+.set_contain .right.time .x1 {
+	transform: translateY(-100%);
+}
+.set_contain .right i.icon-wrench {
+	margin: 0;
+	font-size: 12px;
+}
 
 nav.settings .keyb_lang {
 	display: inline-block;
