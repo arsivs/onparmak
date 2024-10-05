@@ -53,7 +53,6 @@
 }
 .txt_contain.letter:focus .txt {
 	animation: line 1s infinite;
-	animation-delay: 2s;
 }
 .letter .txt_wrt .next {
 	display: flex;
