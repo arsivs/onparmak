@@ -4,8 +4,8 @@
 	100% { transform: translateY(-10%); }
 }
 @keyframes line {
-    0%,to { opacity: 0 }
-    50% { opacity: 1 }
+    0%,to { opacity: 1 }
+    50% { opacity: 0 }
 }
 @keyframes k_focus {
     from { background-color: #e2b714; }
