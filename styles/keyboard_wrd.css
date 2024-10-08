@@ -22,6 +22,28 @@
     z-index: 5;
     opacity: 1;
 }
+.txt_contain.word.disabled .blur {
+    opacity: inherit;
+    z-index: 5;
+}
+.txt_contain.word .blur .r {
+    display: none;
+}
+.txt_contain.word.disabled .b {
+	display: none;
+}
+.txt_contain.word.disabled .r {
+	display: block;
+	cursor: pointer;
+	text-align: center;
+}
+.txt_contain.word i.icon-refresh {
+    font-size: 38px;
+    display: block;
+}
+.txt_contain.word.disabled .line {
+    animation: none;
+}
 .txt_contain.word:focus .blur {
 	opacity: 0;
 	z-index: -1;

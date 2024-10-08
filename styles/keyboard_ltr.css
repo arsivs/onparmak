@@ -6,13 +6,43 @@
 	font-family: "Vazirmatn", sans-serif;
 }
 .txt_contain.letter .blur {
-	position: absolute;
-	top: 50%;
-	transform: translateY(-50%);
-	color: #d1d0c5;
-	font-size: 22px;
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background: rgb(50 52 55 / 51%);
+    backdrop-filter: blur(4px);
+    transition: opacity 250ms;
+    color: #d1d0c5;
+    font-size: 22px;
+    z-index: 5;
     opacity: 1;
-    transition: all 500ms;
+}
+.txt_contain.letter.disabled .blur {
+    opacity: inherit;
+    z-index: 5;
+}
+.txt_contain.letter .blur .r {
+    display: none;
+}
+.txt_contain.letter.disabled .b {
+	display: none;
+}
+.txt_contain.letter.disabled .r {
+	display: block;
+	cursor: pointer;
+	text-align: center;
+}
+.txt_contain.letter i.icon-refresh {
+    font-size: 38px;
+    display: block;
+}
+.txt_contain.letter.disabled .line {
+    animation: none;
 }
 .txt_contain.letter:focus .blur {
 	opacity: 0;
@@ -28,9 +58,6 @@
 	justify-content: center;
 	padding: 0 10px;
 	letter-spacing: 2px;
-	opacity: .25;
-	filter: blur(4px);
-	transition: opacity, filter 250ms;
 	overflow: hidden;
 }
 .letter .txt_wrt .typing,
