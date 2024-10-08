@@ -6,13 +6,21 @@
 	font-family: "Vazirmatn", sans-serif;
 }
 .txt_contain.word .blur {
-	position: absolute;
-	top: 50%;
-	transform: translateY(-50%);
-	color: #d1d0c5;
-	font-size: 22px;
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background: rgb(50 52 55 / 51%);
+    backdrop-filter: blur(4px);
+    transition: opacity 250ms;
+    color: #d1d0c5;
+    font-size: 22px;
+    z-index: 5;
     opacity: 1;
-    transition: all 500ms;
 }
 .txt_contain.word:focus .blur {
 	opacity: 0;
@@ -34,9 +42,6 @@
 	font-size: 30px;
 	color: #646669;
 	letter-spacing: 2px;
-	opacity: .25;
-	filter: blur(4px);
-	transition: opacity, filter 250ms;
 }
 .word .txt_wrt .next > p {
 	display: inline-flex;
