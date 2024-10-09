@@ -37,6 +37,7 @@ function Key_Letter(event, word){
 			}else{
 				prev.classList.remove("prev");
 				clearInterval(setTime);
+				setTime = null;
 				ResultsFinish();
 				//console.log("Erken bitti");
 			}
