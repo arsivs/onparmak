@@ -41,7 +41,7 @@
     font-size: 38px;
     display: block;
 }
-.txt_contain.letter.disabled .line {
+.txt_contain.letter.disabled .txt {
     animation: none;
 }
 .txt_contain.letter:focus .blur {
