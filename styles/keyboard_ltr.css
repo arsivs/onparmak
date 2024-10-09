@@ -42,7 +42,7 @@
     display: block;
 }
 .txt_contain.letter.disabled .txt {
-    animation: none;
+    animation: none !important;
 }
 .txt_contain.letter:focus .blur {
 	opacity: 0;
