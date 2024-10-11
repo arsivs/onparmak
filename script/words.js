@@ -3,9 +3,9 @@ function _Words(){
 
 	let sec = _Document.querySelector(".active[data-word]").dataset.word,
 		cont = _Document.querySelector('.txt_contain'),
-		arr = bin.slice(0, sec),
 		yaz = "";
 
+	arr = bin.slice(0, sec);
 	arr.forEach(element =>yaz += '<p>'+element+'</p>');
 	_Document.querySelector('.txt_wrt .next').innerHTML = yaz;
 	yaz = undefined;
