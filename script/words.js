@@ -7,7 +7,7 @@ function _Words(){
 
 	arr = bin.slice(0, sec);
 	arr.forEach(element =>yaz += '<p>'+element+'</p>');
-	_Document.querySelector('.txt_wrt .next').innerHTML = yaz;
+	cont.querySelector('.txt_wrt .next').innerHTML = yaz;
 	yaz = undefined;
 
 	let first = cont.querySelector('.txt_wrt .next p');
