@@ -1,6 +1,6 @@
 var _Document = document, arr=[], arr_count=0, setTime=null, key_res={dvr:0, yvr:0, dgk:0, ynl:0};
 
-(function () {
+window.onload = function() {
 
 	_Words();
 
@@ -63,7 +63,7 @@ var _Document = document, arr=[], arr_count=0, setTime=null, key_res={dvr:0, yvr
 	  }
 	}
 	console.log("yüklendi");
-})();
+}
 
 function Restart(rst){
 	reset = (rst == "restart") ? _Document.querySelector('.set_contain button[data-id].active').dataset.id : rst;
