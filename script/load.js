@@ -2,6 +2,8 @@ var _Document = document, arr=[], arr_count=0, setTime=null, key_res={dvr:0, yvr
 
 window.onload = function() {
 
+	_Words();
+
 	_Document.querySelector('.txt_contain').onfocus = function(e){
 		if(e.target.classList.contains("disabled") === true)
 			e.target.blur();
@@ -60,8 +62,6 @@ window.onload = function() {
 		bg_popup_close();
 	  }
 	}
-	
-	_Document.querySelector('.txt_contain').focus();
 }
 
 function Restart(rst){

@@ -17,4 +17,3 @@ function _Words(){
 	arr_count = 0;
 	_Document.querySelector('.txt_contain').focus();
 }
-_Words();
