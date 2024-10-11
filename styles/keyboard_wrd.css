@@ -1,0 +1,151 @@
+.txt_contain.word {
+	position: relative;
+	display: flex;
+	justify-content: center;
+	padding: 30px 0;
+	font-family: "Vazirmatn", sans-serif;
+}
+.txt_contain.word .blur {
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background: rgb(50 52 55 / 51%);
+    backdrop-filter: blur(4px);
+    transition: opacity 250ms;
+    color: #d1d0c5;
+    font-size: 22px;
+    z-index: 5;
+    opacity: 1;
+}
+.txt_contain.word.disabled .blur {
+    opacity: inherit;
+    z-index: 5;
+}
+.txt_contain.word .blur .r {
+    display: none;
+}
+.txt_contain.word.disabled .b {
+	display: none;
+}
+.txt_contain.word.disabled .r {
+	display: block;
+	cursor: pointer;
+	text-align: center;
+}
+.txt_contain.word i.icon-refresh {
+    font-size: 38px;
+    display: block;
+}
+.txt_contain.word.disabled .line {
+    animation: none;
+}
+.txt_contain.word:focus .blur {
+	opacity: 0;
+	z-index: -1;
+}
+.txt_contain.word:focus .txt_wrt {
+	opacity: unset;
+	filter: none;
+}
+.txt_contain.word .blur i.icon-mouse {
+	font-size: 18px;
+	margin-right: 7px;
+}
+.word .txt_wrt {
+	position: relative;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	font-size: 30px;
+	color: #646669;
+	letter-spacing: 2px;
+}
+.word .txt_wrt .next > p {
+	display: inline-flex;
+	padding-right: 10px;
+}
+.word .txt_wrt .prev:before,
+.word .txt_wrt .next:after {
+    content: "";
+    position: absolute;
+    width: 130px;
+    height: 100%;
+    top: 0;
+    left: 0;
+    background-image: linear-gradient(to left, rgba(255, 0, 0, 0), #323437);
+}
+.word .txt_wrt .next:after {
+	left: initial;
+	right: 0;
+	background-image: linear-gradient(to right, rgba(255, 0, 0, 0), #323437);
+}
+.word .txt_wrt .prev {
+	position: relative;
+	display: flex;
+	flex-direction: row-reverse;
+	flex-wrap: nowrap;
+	flex-basis: 170px;
+	width: 170px;
+	overflow: hidden;
+}
+.word .txt_wrt .prev p {
+	padding: 0 0 0 10px;
+}
+.word .txt_wrt .prev p.light {
+	color: #06f;
+}
+.word .txt_wrt .prev p.red {
+	color: tomato;
+}
+.word .txt_wrt .prev p.err {
+	text-decoration: line-through;
+}
+.word .txt_wrt .typing {
+	position: absolute;
+	left: 12px;
+	color: #000;
+	font-size: 14px;
+	background-color: #e2b714;
+	padding: 7px 12px;
+	border-radius: 5px;
+	z-index: 2;
+	animation: pulse 1.2s infinite ease-out;
+}
+.word .txt_wrt .typing:after {
+	content: "";
+	position: absolute;
+	border-style: solid;
+	border: 10px solid transparent;
+	border-left-color: #e2b714;
+	top: 50%;
+	left: 100%;
+	transform: translateY(-50%);
+}
+.word .txt_wrt .txt {
+	position: relative;
+}
+.word .txt_wrt .txt .line {
+	width: 2px;
+	height: 36px;
+	background-color: #e2b714;
+	padding: 0;
+	border-radius: 2px;
+	opacity: 0;
+	transform: translateX(-1px) translateY(-3px);
+}
+.txt_contain.word:focus .line {
+	animation: line 1s infinite;
+}
+.word .txt_wrt .next {
+	display: flex;
+	flex-direction: row;
+	align-items: center;
+	width: 750px;
+	height: 140px;
+	overflow: hidden;
+}
