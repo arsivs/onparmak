@@ -5,7 +5,6 @@ window.onload = function() {
 	_Words();
 
 	_Document.querySelector('.txt_contain').onfocus = function(e){
-		console.log(e);
 		if(e.target.classList.contains("disabled") === true)
 			e.target.blur();
 		e.target.onkeydown = function(event){
