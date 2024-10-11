@@ -4,21 +4,7 @@ window.onload = function() {
 
 	_Words();
 
-	_Document.querySelector('.txt_contain').onfocus = function(e){
-		if(e.target.classList.contains("disabled") === true)
-			e.target.blur();
-		e.target.onkeydown = function(event){
-			event.preventDefault();
-			var w = _KeyCheck( event.keyCode, (event.getModifierState("CapsLock") || event.shiftKey) ? 1 : 0 );
-			if(w !== false ) {
-				if(event.target.classList.contains("word")){
-					Key_Word(event, w);
-				}else if(event.target.classList.contains("letter")){
-					Key_Letter(event, w);
-				}
-			}
-		}
-	};
+
 
 	_Document.querySelector('.set_contain').onmouseup = function(e) {
 		e.preventDefault();
