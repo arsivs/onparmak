@@ -42,6 +42,7 @@
 .icon-refresh:before { content: '\e804'; } /* '' */
 .icon-letter:before { content: '\e805'; } /* '' */
 .icon-clock:before { content: '\e806'; } /* '' */
+.icon-error:before { content: '\e807'; } /* '' */
 .icon-wrench:before { content: '\e808'; } /* '' */
 .icon-ok:before { content: '\e809'; } /* '' */
 .icon-quote:before { content: '\f10d'; } /* '' */
