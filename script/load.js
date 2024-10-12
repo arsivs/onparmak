@@ -4,7 +4,7 @@ window.onload = function() {
 
 	_Words();
 
-	_Document.querySelector('.txt_contain').target.onkeydown = function(event){
+	_Document.querySelector('.txt_contain').onkeydown = function(event){
 		event.preventDefault();
 		var w = _KeyCheck( event.keyCode, (event.getModifierState("CapsLock") || event.shiftKey) ? 1 : 0 );
 		if(w !== false ) {
