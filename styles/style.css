@@ -148,6 +148,67 @@ nav.bottom {
 	height: 40px;
 }
 
+/* Results Start */
+.results {
+	display: flex;
+	justify-content: center;
+	gap: 20px;
+}
+.results > div {
+	position: relative;
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	gap: 10px;
+}
+.results > div span {
+	display: block;
+}
+.results > div span:first-child {
+	background-color: #2c2e31;
+	width: 80px;
+	height: 80px;
+	align-content: center;
+	text-align: center;
+	border-radius: 20px;
+	font-weight: bold;
+	font-size: 24px;
+}
+.results .time span:first-child {
+	font-size: 18px;
+	border-radius: 50%;
+}
+.results > div span:last-child {
+	font-size: 13px;
+}
+.results span.dks {
+	color: #527a1e;
+}
+.results .time svg {
+    position: absolute;
+    top: 0;
+    left: 0;
+}
+.results .time circle {
+	transform: rotateY(-180deg) rotateZ(-90deg);
+	transform-origin: center center;
+	transition: stroke-dashoffset 1s linear;
+}
+.results > div span.icon {
+	position: absolute;
+	top: 54px;
+	font-weight: bold;
+	color: #7e2a33;
+	font-size: 15px;
+}
+.results > div span.icon::after {
+	content: '\e807';
+	font-family: "fontello";
+	font-size: 13px;
+	margin-left: 5px;
+}
+/* Results End */
+
 
 /* Html Popup Start */
 .bg_popup {
