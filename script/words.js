@@ -17,6 +17,6 @@ function _Words(){
 		first.innerHTML = '<p class="x1"></p><p class="x2">'+first.innerHTML+'</p>';
 	}
 	arr_count = 0;
-	cont.tabIndex = 0;
-	cont.focus();
+	//cont.tabIndex = 0;
+	//cont.focus();
 }
