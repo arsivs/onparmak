@@ -5,8 +5,6 @@ window.onload = function() {
 	_Words();
 
 	_Document.querySelector('.txt_contain').onkeydown = function(event){
-		if(event.target.classList.contains("disabled") === true)
-			event.target.blur();
 		event.preventDefault();
 		var w = _KeyCheck( event.keyCode, (event.getModifierState("CapsLock") || event.shiftKey) ? 1 : 0 );
 		if(w !== false ) {
@@ -200,6 +198,7 @@ function StartTimer(callback){
 
 		if (--timer < 0) {
 			clearInterval(setTime);
+			_Document.querySelector('.txt_contain').removeAttribute('tabindex');
 			setTime = null;
 			callback();
 		}
