@@ -182,6 +182,16 @@ function _focus(add, key){
 	};
 }
 
+function msg(type, msg){
+	var sec = _Document.querySelector('.notice');
+	sec.style.display = "block";
+	sec.innerHTML = '<div class="msg '+type+'">'+msg+'</div>';
+	sec.querySelector('.msg').onanimationend = (e) => {
+		e.target.remove();
+		sec.style.display = "none";
+	};
+}
+
 function StartTimer(callback){
 	if(setTime !== null)
 		clearInterval(zamanlama);
