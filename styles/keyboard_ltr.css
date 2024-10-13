@@ -69,7 +69,7 @@
 	left: 10px;
 	opacity: 1;
 	transition: left 400ms;
-	transform: translateX(-1px) translateY(2px);
+	transform: translateX(-2px) translateY(2px);
 }
 .letter .txt_wrt .txt .line {
 	width: 2px;
