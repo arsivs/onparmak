@@ -43,7 +43,7 @@ function Key_Word(event, word){
 				StartTimer(ResultsFinish);
 				_Document.querySelector('.txt_wrt .typing').style.display = "none";
 			}
-			if(p_light.innerText.length >= 5){
+			if(p_light.classList.contains('red') && p_light.innerText.length >= 5){
 				msg("err", "Çok fazla hata lütfen yavaşla.");
 				return false;
 			}
