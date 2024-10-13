@@ -3,6 +3,7 @@ var _Document = document, arr=[], arr_count=0, setTime=null, key_res={dvr:0, yvr
 window.onload = function() {
 
 	_Words();
+	_Keyboard();
 
 	_Document.querySelector('.txt_contain').onkeydown = function(event){
 		event.preventDefault();

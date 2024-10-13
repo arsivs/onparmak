@@ -36,4 +36,3 @@ function _Keyboard() {
 		div.querySelector('.row:last-child').innerHTML += '<div class="key" data-key="'+keys+'">'+val+'</div>';
 	});
 }
-_Keyboard();
