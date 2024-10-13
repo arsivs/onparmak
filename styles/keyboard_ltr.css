@@ -68,7 +68,7 @@
 	position: absolute;
 	left: 10px;
 	opacity: 1;
-	transition: left 400ms;
+	transition: left 250ms;
 	transform: translateX(-2px) translateY(2px);
 }
 .letter .txt_wrt .txt .line {
@@ -111,5 +111,5 @@
 	display: inline-flex;
 }
 .letter .txt_wrt .next .light .x1 {
-	color: #fff;
+	color: #527a1e;
 }
