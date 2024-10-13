@@ -110,3 +110,6 @@
 .letter .txt_wrt .next .light {
 	display: inline-flex;
 }
+.letter .txt_wrt .next .light .x1 {
+	color: #fff;
+}
