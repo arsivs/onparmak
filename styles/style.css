@@ -135,8 +135,15 @@ nav.settings .keyb_lang {
 nav.settings .keyb_lang:hover {
 	color: #d1d0c5;
 }
-nav.settings .keyb_lang i {
-	font-size: 18px;
+nav.settings .keyb_lang span {
+    display: inline-block;
+}
+nav.settings .keyb_lang span:before {
+    content: '\e803';
+    font-family: "fontello";
+    font-size: 20px;
+    margin-right: 5px;
+    vertical-align: middle;
 }
 /* Nav Settings End */
 
@@ -171,7 +178,6 @@ nav.bottom {
 	align-content: center;
 	text-align: center;
 	border-radius: 20px;
-	font-weight: bold;
 	font-size: 24px;
 }
 .results .time span:first-child {
