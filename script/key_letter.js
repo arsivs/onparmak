@@ -44,6 +44,10 @@ function Key_Letter(event, word){
 			ResultsSet();
 		  break;
 		default: //Yaz
+			if(prev.classList.contains('red') && prev.innerText.length >= 5){
+				msg("err", "Çok fazla hata lütfen yavaşla.");
+				return false;
+			}
 			if( setTime === null ){
 				StartTimer(ResultsFinish);
 			}

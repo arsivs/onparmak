@@ -39,13 +39,13 @@ function Key_Word(event, word){
 			ResultsSet();
 		  break;
 		default: //Yaz
-			if( setTime === null ){
-				StartTimer(ResultsFinish);
-				_Document.querySelector('.txt_wrt .typing').style.display = "none";
-			}
 			if(p_light.classList.contains('red') && p_light.innerText.length >= 5){
 				msg("err", "Çok fazla hata lütfen yavaşla.");
 				return false;
+			}
+			if( setTime === null ){
+				StartTimer(ResultsFinish);
+				_Document.querySelector('.txt_wrt .typing').style.display = "none";
 			}
 			p_light.innerHTML += word;
 			if( word==light.innerText.substring(0, 1) && p_light.innerText == kelime.substring(0, p_light.innerText.length) ){
