@@ -44,7 +44,7 @@ function Key_Letter(event, word){
 			ResultsSet();
 		  break;
 		default: //Yaz
-			if(prev.classList.contains('red') && prev.innerText.length >= 5){
+			if(prev.classList.contains('red') && prev.innerText.length >= 10){
 				msg("err", "Çok fazla hata lütfen yavaşla.");
 				return false;
 			}

@@ -39,7 +39,7 @@ function Key_Word(event, word){
 			ResultsSet();
 		  break;
 		default: //Yaz
-			if(p_light.classList.contains('red') && p_light.innerText.length >= 5){
+			if(p_light.classList.contains('red') && p_light.innerText.length >= 10){
 				msg("err", "Çok fazla hata lütfen yavaşla.");
 				return false;
 			}
