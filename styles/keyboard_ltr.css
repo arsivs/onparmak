@@ -96,20 +96,15 @@
 	padding-right: 10px;
 	line-height: 1.547em;
 }
-/*
-.letter .txt_wrt p.light::before {
-	content: '\feff';
+.letter .txt_wrt .next p.x1 {
+	color: #527a1e;
 }
-*/
-.letter .txt_wrt .next p.red {
-	color: tomato;
+.letter .txt_wrt .next p.x1.red {
+	color: #ca4754;
 }
 .letter .txt_wrt .next p.err {
 	text-decoration: line-through;
 }
 .letter .txt_wrt .next .light {
 	display: inline-flex;
-}
-.letter .txt_wrt .next .light .x1 {
-	color: #527a1e;
 }
