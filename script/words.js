@@ -12,10 +12,12 @@ function _Words(){
 
 	let first = cont.querySelector('.txt_wrt .next p');
 	first.classList.add("light");
-
+	first.innerHTML = first.innerHTML;
+	/*
 	if( cont.classList.contains("letter") ){
 		first.innerHTML = '<p class="x1"></p><p class="x2">'+first.innerHTML+'</p>';
 	}
+	*/
 	arr_count = 0;
 	cont.tabIndex = 0;
 	cont.focus();
