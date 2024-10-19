@@ -109,7 +109,6 @@ function ResultsFinish(){
 	let sec = _Document.querySelector('.txt_contain');
 	sec.classList.add("disabled");
 	sec.blur();
-	console.log("Bitti");
 }
 
 function _KeyCheck(key,caps=null){
