@@ -91,7 +91,6 @@ nav.settings {
 .set_contain .right {
 	position: relative;
 	display: inline-flex;
-	font-family: "Roboto Mono", monospace;
 	overflow: hidden;
 }
 .set_contain .right::before {
@@ -116,6 +115,9 @@ nav.settings {
 .set_contain .right button {
 	width: 40px;
 	padding: 7px 0;
+}
+.set_contain .right .x1 button {
+    font-family: "Roboto Mono", serif;
 }
 .set_contain .right.time .x1 {
 	transform: translateY(-100%);
