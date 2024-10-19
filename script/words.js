@@ -10,14 +10,7 @@ function _Words(){
 	cont.querySelector('.txt_wrt .next').innerHTML = yaz;
 	yaz = undefined;
 
-	let first = cont.querySelector('.txt_wrt .next p');
-	first.classList.add("light");
-	first.innerHTML = first.innerHTML;
-	/*
-	if( cont.classList.contains("letter") ){
-		first.innerHTML = '<p class="x1"></p><p class="x2">'+first.innerHTML+'</p>';
-	}
-	*/
+	cont.querySelector('.txt_wrt .next p').classList.add("light");
 	arr_count = 0;
 	cont.tabIndex = 0;
 	cont.focus();
