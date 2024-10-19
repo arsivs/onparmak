@@ -1,0 +1,112 @@
+.txt_contain.letter {
+	position: relative;
+	display: flex;
+	justify-content: center;
+	padding: 30px 0;
+	font-family: "Vazirmatn", sans-serif;
+}
+.txt_contain.letter .blur {
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background: rgb(50 52 55 / 51%);
+    backdrop-filter: blur(4px);
+    transition: opacity 250ms;
+    color: #d1d0c5;
+    font-size: 22px;
+    z-index: 5;
+    opacity: 1;
+}
+.txt_contain.letter.disabled .blur {
+    opacity: inherit;
+    z-index: 5;
+}
+.txt_contain.letter .blur .r {
+    display: none;
+}
+.txt_contain.letter.disabled .b {
+	display: none;
+}
+.txt_contain.letter.disabled .r {
+	display: block;
+	cursor: pointer;
+	text-align: center;
+}
+.txt_contain.letter i.icon-refresh {
+    font-size: 38px;
+    display: block;
+}
+.txt_contain.letter.disabled .txt {
+    animation: none !important;
+}
+.txt_contain.letter:focus .blur {
+	opacity: 0;
+	z-index: -1;
+}
+.txt_contain.letter:focus .txt_wrt {
+	opacity: unset;
+	filter: none;
+}
+.letter .txt_wrt {
+	position: relative;
+	display: flex;
+	justify-content: center;
+	padding: 0 10px;
+	letter-spacing: 2px;
+	overflow: hidden;
+}
+.letter .txt_wrt .typing,
+.letter .txt_wrt > .prev {
+	display: none;
+}
+.letter .txt_wrt .txt {
+	position: absolute;
+	left: 10px;
+	opacity: 1;
+	transition: left 250ms, top 250ms;
+	transform: translateX(-2px) translateY(2px);
+}
+.letter .txt_wrt .txt .line {
+	width: 2px;
+	height: 36px;
+	background-color: #e2b714;
+	padding: 0;
+	border-radius: 2px;
+}
+.txt_contain.letter:focus .txt {
+	animation: line 1s infinite;
+}
+.letter .txt_wrt .next {
+	display: flex;
+	flex-direction: row;
+	height: 140px;
+	flex-wrap: wrap;
+	word-break: break-word;
+	word-wrap: break-word;
+	overflow: hidden;
+}
+.letter .txt_wrt .next > p {
+	display: inline-flex;
+	font-size: 30px;
+	padding-right: 10px;
+	line-height: 1.547em;
+}
+.letter .txt_wrt p b,
+.letter .txt_wrt p u {
+	font-weight: normal;
+	text-decoration: unset;
+}
+.letter .txt_wrt p u {
+	color: #ca4754;
+}
+.letter .txt_wrt p.light b {
+	color: #527a1e;
+}
+.letter .txt_wrt .next p.err {
+	text-decoration: line-through;
+}
