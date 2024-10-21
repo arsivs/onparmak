@@ -226,6 +226,7 @@ nav.bottom {
 .bottom_contain a {
 	color: inherit;
 	text-decoration: none;
+	transition: color .125s;
 }
 .bottom_contain a:hover {
     color: #d1d0c5;
