@@ -1,8 +1,11 @@
 function _Keyboard() {
-	let key_num = [
-			{49:"1"}, {50:"2"}, {51:"3"}, {52:"4"}, {53:"5"}, {54:"6"}, {55:"7"}, {56:"8"}, {57:"9"}, {48:"0"}
-		],
-		keyboard = {
+	/*
+	key_num = [
+		{49:"1"}, {50:"2"}, {51:"3"}, {52:"4"}, {53:"5"}, {54:"6"}, {55:"7"}, {56:"8"}, {57:"9"}, {48:"0"}
+	],
+	key_num.concat(keyboard[type])
+	*/
+	let keyboard = {
 		"tr_q": [
 			{81:"Q"}, {87:"W"}, {69:"E"}, {82:"R"}, {84:"T"}, {89:"Y"}, {85:"U"}, {73:"I"}, {79:"O"}, {80:"P"}, {219:"Ğ"}, {221:"Ü"},
 			{65:"A"}, {83:"S"}, {68:"D"}, {70:"F"}, {71:"G"}, {72:"H"}, {74:"J"}, {75:"K"}, {76:"L"}, {186:"Ş"}, {222:"İ"}, // {188:","},
@@ -30,12 +33,9 @@ function _Keyboard() {
 	},
 	type = _Document.querySelector('.keyb_lang').dataset.lang,
 	div = _Document.querySelector('.keyboard'),
-	row = {"tr_q": [49,81,65,90,32], "tr_f": [49,70,85,74,32], "en_y": [49,81,65,90,32], "en_z": [49,81,65,89,32]}
+	row = {"tr_q": [81,65,90,32], "tr_f": [70,85,74,32], "en_y": [81,65,90,32], "en_z": [81,65,89,32]}
 	div.innerHTML = "";
-
-
-
-	Object.values( key_num.concat(keyboard[type]) ).forEach(key => {
+	Object.values(keyboard[type]).forEach(key => {
 		const keys = Object.keys(key), val = Object.values(key);
 		if( row[type].includes(parseInt(keys)) )
 			div.innerHTML += '<div class="row"></div>';
