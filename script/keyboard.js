@@ -33,11 +33,9 @@ function _Keyboard() {
 	row = {"tr_q": [81,65,90,32], "tr_f": [70,85,74,32], "en_y": [81,65,90,32], "en_z": [81,65,89,32]}
 	div.innerHTML = "";
 
-	const kkk = key_num.concat(keyboard[type]);
 
-	console.log( kkk );
-
-	Object.values(kkk).forEach(key => {
+	
+	Object.values(keyboard[type]).forEach(key => {
 		const keys = Object.keys(key), val = Object.values(key);
 		if( row[type].includes(parseInt(keys)) )
 			div.innerHTML += '<div class="row"></div>';
