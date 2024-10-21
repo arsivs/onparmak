@@ -218,16 +218,27 @@ nav.bottom {
 	height: 40px;
 }
 .bottom_contain {
-
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+	height: 100%;
 }
 .bottom_contain a {
-
+	color: inherit;
+	text-decoration: none;
+}
+.bottom_contain a:hover {
+    color: #d1d0c5;
+}
+.bottom_contain a:active {
+    color: inherit;
 }
 .bottom_contain a i {
-	
+	margin-bottom: -1px;
 }
 .bottom_contain .left {
-
+	display: flex;
+	gap: 0 15px;
 }
 .bottom_contain .right {
 
@@ -239,8 +250,8 @@ nav.bottom {
 .notice {
 	display: none;
 	position: fixed;
-	left: 30px;
-	bottom: 30px;
+	right: 30px;
+	bottom: 50px;
 	z-index: 10;
 }
 .notice .msg {
