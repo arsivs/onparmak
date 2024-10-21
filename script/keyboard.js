@@ -31,7 +31,7 @@ function _Keyboard() {
 	type = _Document.querySelector('.keyb_lang').dataset.lang,
 	div = _Document.querySelector('.keyboard'),
 	keyboard = key_num.concat(keyboard[type]),
-	row = {"tr_q": [81,65,90,32], "tr_f": [70,85,74,32], "en_y": [81,65,90,32], "en_z": [81,65,89,32]},
+	row = {"tr_q": [81,65,90,32], "tr_f": [70,85,74,32], "en_y": [81,65,90,32], "en_z": [81,65,89,32]};
 	div.innerHTML = "";
 	Object.values(keyboard).forEach(key => {
 		const keys = Object.keys(key), val = Object.values(key);
