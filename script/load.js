@@ -167,6 +167,8 @@ function bg_popup_close(){
 }
 
 function _focus(add, key){
+	if( (key >= 48 && key <= 57) )
+		return false;
 	let _key = _Document.querySelector('.keyboard div[data-key="'+key+'"]');
 	if(_key.getAnimations()[0]){
 		_key.getAnimations().forEach((anim) => {
