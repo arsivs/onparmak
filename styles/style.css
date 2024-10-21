@@ -153,10 +153,6 @@ nav.settings .keyb_lang span:before {
 nav.middle {
 	
 }
-nav.bottom {
-	height: 40px;
-}
-
 /* Results Start */
 .results {
 	display: flex;
@@ -216,6 +212,28 @@ nav.bottom {
 	margin-left: 5px;
 }
 /* Results End */
+
+/* Bottom Start */
+nav.bottom {
+	height: 40px;
+}
+.bottom_contain {
+
+}
+.bottom_contain a {
+
+}
+.bottom_contain a i {
+	
+}
+.bottom_contain .left {
+
+}
+.bottom_contain .right {
+
+}
+/* Bottom End */
+
 
 /* Notification Start */
 .notice {
