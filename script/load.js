@@ -122,6 +122,8 @@ function _KeyCheck(key,caps=null){
 	};
 
 	if(key in res){
+		if(res[key][caps] === undefined)
+			return res[key][0];
 		return res[key][caps];
 	}else{
 		return false;
