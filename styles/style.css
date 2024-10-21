@@ -45,6 +45,9 @@ nav.top {
 }
 /* Nav Top End */
 
+nav.middle {
+	
+}
 /* Nav Settings Start */
 nav.settings {
 	text-align: center;
@@ -149,10 +152,6 @@ nav.settings .keyb_lang span:before {
 }
 /* Nav Settings End */
 
-
-nav.middle {
-	
-}
 /* Results Start */
 .results {
 	display: flex;
@@ -222,6 +221,7 @@ nav.bottom {
 	justify-content: space-between;
 	align-items: center;
 	height: 100%;
+	font-size: .95rem;
 }
 .bottom_contain a {
 	color: inherit;
