@@ -98,6 +98,7 @@
 }
 .letter .txt_wrt p b,
 .letter .txt_wrt p u {
+	line-height: inherit;
 	font-weight: normal;
 	text-decoration: unset;
 }
