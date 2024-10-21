@@ -45,9 +45,13 @@
 .icon-error:before { content: '\e807'; } /* '' */
 .icon-wrench:before { content: '\e808'; } /* '' */
 .icon-ok:before { content: '\e809'; } /* '' */
+.icon-lock:before { content: '\e80a'; } /* '' */
 .icon-okk:before { content: '\e80b'; } /* '' */
 .icon-cancel:before { content: '\e80c'; } /* '' */
 .icon-warning:before { content: '\e80d'; } /* '' */
+.icon-blog:before { content: '\e80e'; } /* '' */
+.icon-mail:before { content: '\e80f'; } /* '' */
 .icon-quote:before { content: '\f10d'; } /* '' */
+.icon-shield:before { content: '\f132'; } /* '' */
 .icon-moon:before { content: '\f186'; } /* '' */
 .icon-mouse:before { content: '\f245'; } /* '' */
