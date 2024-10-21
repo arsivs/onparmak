@@ -3,7 +3,8 @@ function Key_Word(event, word){
 		kelime = arr[arr_count],
 		prev = _Document.querySelector('.txt_wrt .prev'),
 		p_light = _Document.querySelector('.prev .light'),
-		light = _Document.querySelector('.next .light');
+		light = _Document.querySelector('.next .light'),
+		line = prev.parentElement.querySelector('.txt');
 
 	switch(_KeyCode) {
 		case 8: //Geri Tusu
@@ -60,4 +61,8 @@ function Key_Word(event, word){
 			ResultsSet();
 		  break;
 	}
+	// Line Duration
+	line.style.animation = "none";
+	line.offsetWidth; /* Animation Reset */
+	line.style.animation = "line 1s 2s infinite";
 }
