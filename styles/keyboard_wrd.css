@@ -128,6 +128,8 @@
 }
 .word .txt_wrt .txt {
 	position: relative;
+	opacity: 1;
+	transform: translateX(-1px) translateY(-3px);
 }
 .word .txt_wrt .txt .line {
 	width: 2px;
@@ -135,10 +137,8 @@
 	background-color: #e2b714;
 	padding: 0;
 	border-radius: 2px;
-	opacity: 0;
-	transform: translateX(-1px) translateY(-3px);
 }
-.txt_contain.word:focus .line {
+.txt_contain.word:focus .txt {
 	animation: line 1s infinite;
 }
 .word .txt_wrt .next {
