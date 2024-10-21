@@ -122,9 +122,9 @@ function _KeyCheck(key,caps=null){
 	};
 
 	if(key in res){
-		if(res[key][caps] === undefined)
-			return res[key][0];
-		return res[key][caps];
+		if(res[key][caps] !== undefined)
+			return res[key][caps];
+		return res[key][0];
 	}else{
 		return false;
 	}
