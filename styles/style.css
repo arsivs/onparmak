@@ -234,16 +234,19 @@ nav.bottom {
 .bottom_contain a:active {
     color: inherit;
 }
-.bottom_contain a i {
-	margin-bottom: -1px;
-}
 .bottom_contain .left {
 	display: inline-flex;
 	gap: 0 15px;
 }
+.bottom_contain .left i {
+	margin-bottom: 1px;
+}
 .bottom_contain .right {
     display: inline-flex;
     gap: 0 15px;
+}
+.bottom_contain .right i.icon-mail {
+	margin-bottom: -2px;
 }
 /* Bottom End */
 
