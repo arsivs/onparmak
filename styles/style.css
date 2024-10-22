@@ -238,11 +238,12 @@ nav.bottom {
 	margin-bottom: -1px;
 }
 .bottom_contain .left {
-	display: flex;
+	display: inline-flex;
 	gap: 0 15px;
 }
 .bottom_contain .right {
-
+    display: inline-flex;
+    gap: 0 15px;
 }
 /* Bottom End */
 
