@@ -11,13 +11,13 @@ nav.contain nav {
 
 /* Nav Top Start */
 nav.top {
-	/* background-color: #000000; */
+	height: 70px;
 }
 .top_contain {
 	display: flex;
 	justify-content: space-between;
 	align-items: center;
-	height: 70px;
+	height: 100%;
 }
 .top_contain .left i {
 	font-size: 36px;
