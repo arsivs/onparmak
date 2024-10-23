@@ -108,6 +108,7 @@ function ResultsSet(){
 function ResultsFinish(){
 	let sec = _Document.querySelector('.txt_contain');
 	sec.classList.add("disabled");
+	sec.removeAttribute('tabindex');
 	sec.blur();
 }
 
