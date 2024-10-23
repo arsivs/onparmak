@@ -28,6 +28,7 @@ function Key_Letter(event, word){
 				nextElmt.classList.add("light");
 				arr_count++;
 			}else{
+				light.classList.remove("light");
 				ResultsFinish();
 			}
 
