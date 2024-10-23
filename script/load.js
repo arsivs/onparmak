@@ -110,6 +110,7 @@ function ResultsFinish(){
 	sec.classList.add("disabled");
 	sec.removeAttribute('tabindex');
 	sec.blur();
+	clearInterval(setTime);
 }
 
 function _KeyCheck(key,caps=null){
@@ -212,9 +213,6 @@ function StartTimer(callback){
 		_Document.getElementById("t").innerText = minutes + ":" + seconds;
 
 		if (--timer < 0) {
-			clearInterval(setTime);
-			_Document.querySelector('.txt_contain').removeAttribute('tabindex');
-			setTime = null;
 			callback();
 		}
 	}, 1000);

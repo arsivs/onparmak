@@ -32,10 +32,7 @@ function Key_Word(event, word){
 				arr_count++;
 			}else{
 				p_light.classList.remove("light");
-				clearInterval(setTime);
-				setTime = null;
 				ResultsFinish();
-				//console.log("Erken bitti");
 			}
 			ResultsSet();
 		  break;
