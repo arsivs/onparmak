@@ -5,7 +5,7 @@ window.onload = function() {
 	_Words();
 	_Keyboard();
 
-	_Document..querySelector('.loading').remove();
+	_Document.querySelector('.loading').remove();
 
 	_Document.querySelector('.txt_contain').onkeydown = function(event){
 		event.preventDefault();
