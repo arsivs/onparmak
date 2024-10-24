@@ -317,8 +317,7 @@ nav.bottom {
 	display: block;
 	animation: fade-in .250s;
 }
-.bg_popup.none,
-.loading.none {
+.bg_popup.none {
 	animation: fade-out .250s forwards;
 }
 .bg_popup .content {
