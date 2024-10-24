@@ -6,7 +6,7 @@ window.onload = function() {
 	_Keyboard();
 
 	let loading = _Document.querySelector('.loading');
-	loading.classList.add("none");
+	loading.style.animation = "fade-out .400s forwards";
 	loading.onanimationend = (e) => {
 		e.target.remove();
 	};
