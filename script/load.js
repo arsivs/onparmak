@@ -5,7 +5,11 @@ window.onload = function() {
 	_Words();
 	_Keyboard();
 
-	_Document.querySelector('.loading').classList.add("none");
+	let loading = _Document.querySelector('.loading');
+	loading.classList.add("none");
+	loading.onanimationend = (e) => {
+		e.target.remove();
+	};
 
 	_Document.querySelector('.txt_contain').onkeydown = function(event){
 		event.preventDefault();
