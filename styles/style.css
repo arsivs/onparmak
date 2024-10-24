@@ -1,3 +1,38 @@
+* {
+	-webkit-touch-callout: none; /* iOS Safari */
+	-webkit-user-select: none; /* Safari */
+	-khtml-user-select: none; /* Konqueror HTML */
+	-moz-user-select: none; /* Old versions of Firefox */
+	-ms-user-select: none; /* Internet Explorer/Edge */
+	user-select: none; /* Non-prefixed version, currently
+
+	-webkit-tap-highlight-color: rgba(0,0,0,0);
+	-webkit-tap-highlight-color: transparent; /* For some Androids */
+	
+	-webkit-box-sizing: border-box;
+	-moz-box-sizing: border-box;
+	box-sizing: border-box;
+
+	line-height: 1.2;
+	padding: 0;
+	margin: 0;
+	outline: 0;
+}
+
+html, body {
+	margin: 0;
+	height: 100%;
+	width: 100%;
+	font-size: 14px;
+	color: #646669;
+}
+
+body {
+	background-color: #323437;
+	font-family: "Vazirmatn", sans-serif;
+	font-family: "Lexend Deca", serif;
+}
+
 nav.contain {
 	display: table;
 	width: 1200px;
