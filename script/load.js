@@ -5,6 +5,8 @@ window.onload = function() {
 	_Words();
 	_Keyboard();
 
+	_Document..querySelector('.loading').remove();
+
 	_Document.querySelector('.txt_contain').onkeydown = function(event){
 		event.preventDefault();
 		var w = _KeyCheck( event.keyCode, (event.getModifierState("CapsLock") || event.shiftKey) ? 1 : 0 );
@@ -72,7 +74,6 @@ function Restart(rst){
 	_Document.querySelector('.txt_contain').classList.remove("disabled");
 	_Document.querySelector('.txt_wrt .txt').style.top = "0px";
 	_Document.querySelector('.txt_wrt > .prev').innerHTML = '<p class="light"></p>';
-	//_Document.querySelector('.txt_contain').focus();
 
 	if(reset == "word"){
 		_Document.querySelector('.txt_wrt .txt').style.left = "0px";
@@ -82,7 +83,6 @@ function Restart(rst){
 		_Document.querySelector('.txt_wrt .typing').style.display = "none";
 		_Document.querySelector('.letter .txt_wrt .next').scrollTop = 0;
 	}
-	//_Words();
 	_Document.querySelector('.results circle').style.strokeDashoffset = 0;
 	if( setTime !== null ){
 		clearInterval(setTime);
