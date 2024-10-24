@@ -5,7 +5,7 @@ window.onload = function() {
 	_Words();
 	_Keyboard();
 
-	_Document.querySelector('.loading').remove();
+	_Document.querySelector('.loading').classList.add("none");
 
 	_Document.querySelector('.txt_contain').onkeydown = function(event){
 		event.preventDefault();
@@ -171,7 +171,8 @@ function bg_popup_close(){
 }
 
 function _focus(add, key){
-
+	if( ( 48 >= key <= 57  ) || ( 96 >= key <= 105  ) )
+		return false;
 	let _key = _Document.querySelector('.keyboard div[data-key="'+key+'"]');
 	if(_key.getAnimations()[0]){
 		_key.getAnimations().forEach((anim) => {
