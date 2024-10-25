@@ -2,16 +2,15 @@ var _Document = document, arr=[], arr_count=0, setTime=null, key_res={dvr:0, yvr
 
 window.onload = function() {
 
-	if ( window.location.pathname == '/' ){
-	  _Words();
-	  _Keyboard();
-	}
-
 	let loading = _Document.querySelector('.loading');
 	loading.style.animation = "fade-out .400s forwards";
 	loading.onanimationend = (e) => {
 		e.target.remove();
 	};
+
+  if ( window.location.pathname == '/' ){
+	  _Words();
+	  _Keyboard();
 
 	_Document.querySelector('.txt_contain').onkeydown = function(event){
 		event.preventDefault();
@@ -67,6 +66,7 @@ window.onload = function() {
 		bg_popup_close();
 	  }
 	}
+  }
 }
 
 function Restart(rst){
