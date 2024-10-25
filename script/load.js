@@ -2,8 +2,10 @@ var _Document = document, arr=[], arr_count=0, setTime=null, key_res={dvr:0, yvr
 
 window.onload = function() {
 
-	_Words();
-	_Keyboard();
+	if ( window.location.pathname == '/' ){
+	  _Words();
+	  _Keyboard();
+	}
 
 	let loading = _Document.querySelector('.loading');
 	loading.style.animation = "fade-out .400s forwards";
