@@ -54,6 +54,9 @@ nav.top {
 	align-items: center;
 	height: 100%;
 }
+.top_contain .left a {
+	display: block;
+}
 .top_contain .left i {
 	font-size: 36px;
 	color: #e2b714;
