@@ -20,8 +20,9 @@
 }
 
 :root {
-	--body-bg-color: #323437;
+	--body-bg-color: #16161a;
 	--text-color: #646669;
+	--widget-bg: #202024;
 	--max-width: 1200px;
 }
 
@@ -215,7 +216,7 @@ nav.settings .keyb_lang span:before {
 	display: block;
 }
 .results > div span:first-child {
-	background-color: #2c2e31;
+	background-color: var(--widget-bg);
 	width: 80px;
 	height: 80px;
 	align-content: center;

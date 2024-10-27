@@ -14,7 +14,7 @@
     display: flex;
     justify-content: center;
     align-items: center;
-    background: rgb(50 52 55 / 51%);
+    background: rgb(22 22 26 / 60%);
     backdrop-filter: blur(4px);
     transition: opacity 250ms;
     color: #d1d0c5;
