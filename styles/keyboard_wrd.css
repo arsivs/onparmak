@@ -14,7 +14,7 @@
     display: flex;
     justify-content: center;
     align-items: center;
-    background: rgb(22 22 26 / 60%);
+    background: rgba(var(--txt-blur), 0.6);
     backdrop-filter: blur(4px);
     transition: opacity 250ms;
     color: var(--title-color);
