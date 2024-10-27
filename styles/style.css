@@ -22,6 +22,7 @@
 :root {
 	--body-bg-color: #323437;
 	--text-color: #646669;
+	--max-width: 1200px;
 }
 
 html, body {
@@ -40,9 +41,8 @@ body {
 
 nav.contain {
 	display: table;
-	width: 1200px;
+	width: 100%;
 	height: 100%;
-	margin: 0 auto;
 }
 nav.contain nav {
 	display: table-row;
@@ -57,7 +57,9 @@ nav.top {
 	display: flex;
 	justify-content: space-between;
 	align-items: center;
+	width: var(--max-width);
 	height: 100%;
+	margin: 0 auto;
 }
 .top_contain .left a {
 	display: block;
@@ -264,7 +266,9 @@ nav.bottom {
 	display: flex;
 	justify-content: space-between;
 	align-items: center;
+	width: var(--max-width);
 	height: 100%;
+	margin: 0 auto;
 	font-size: .95rem;
 }
 .bottom_contain a {
