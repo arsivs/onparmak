@@ -77,12 +77,12 @@
     height: 100%;
     top: 0;
     left: 0;
-    background-image: linear-gradient(to left, rgba(255, 0, 0, 0), #323437);
+    background-image: linear-gradient(to left, rgba(255, 0, 0, 0), var(--body-bg-color));
 }
 .word .txt_wrt .next:after {
 	left: initial;
 	right: 0;
-	background-image: linear-gradient(to right, rgba(255, 0, 0, 0), #323437);
+	background-image: linear-gradient(to right, rgba(255, 0, 0, 0), var(--body-bg-color));
 }
 .word .txt_wrt .prev {
 	position: relative;
