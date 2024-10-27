@@ -136,7 +136,7 @@ nav.settings {
 	border: none;
 	background: none;
 }
-.set_contain button.active {
+.set_contain button#url.active {
 	color: #e2b714;
 }
 .set_contain button i {
