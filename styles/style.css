@@ -46,6 +46,7 @@ nav.contain {
 	height: 100%;
 }
 nav.contain nav {
+	align-self: center;
 	flex-grow: 0;
 }
 
@@ -59,7 +60,6 @@ nav.top {
 	align-items: center;
 	width: var(--max-width);
 	height: 100%;
-	margin: 0 auto;
 }
 .top_contain .left a {
 	display: block;
@@ -268,7 +268,6 @@ nav.bottom {
 	align-items: center;
 	width: var(--max-width);
 	height: 100%;
-	margin: 0 auto;
 	font-size: .95rem;
 }
 .bottom_contain a {
