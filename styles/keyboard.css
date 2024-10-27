@@ -17,7 +17,7 @@
 	align-items: center;
 	width: 32px;
 	height: 32px;
-	color: #646669;
+	color: var(--text-color);
 	font-family: "Vazirmatn", sans-serif;
 	font-size: 15px;
 	border-radius: .5rem;
