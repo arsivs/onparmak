@@ -43,16 +43,16 @@ body {
 }
 
 /* Url Hover Active Start */
-a, a#url {
+a, #url {
 	color: var(--text-color);
 	text-decoration: none;
 	transition: color .125s;
 	cursor: pointer;
 }
-a:hover, a#url:hover {
+a:hover, #url:hover {
     color: var(--title-color);
 }
-a:active, a#url:active {
+a:active, #url:active {
     color: var(--text-color);
 }
 /* Url Hover Active End  */
