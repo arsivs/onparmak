@@ -244,6 +244,7 @@ nav.settings .keyb_lang span:before {
 	transform: rotateY(-180deg) rotateZ(-90deg);
 	transform-origin: center center;
 	transition: stroke-dashoffset 1s linear;
+	stroke: var(--text-color);
 }
 .results > div span.icon {
 	position: absolute;
