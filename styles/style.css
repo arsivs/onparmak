@@ -40,13 +40,13 @@ body {
 }
 
 nav.contain {
-	display: table;
+	display: flex;
+	flex-direction: column;
 	width: 100%;
 	height: 100%;
 }
 nav.contain nav {
-	display: table-row;
-	vertical-align: top;
+	flex-grow: 0;
 }
 
 /* Nav Top Start */
@@ -92,7 +92,7 @@ nav.top {
 /* Nav Top End */
 
 nav.middle {
-	
+	flex-grow: 1 !important;
 }
 /* Nav Settings Start */
 nav.settings {
