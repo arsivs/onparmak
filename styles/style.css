@@ -133,11 +133,8 @@ nav.settings {
 .set_contain button {
 	display: inline-block;
 	padding: 7px 10px;
-	cursor: pointer;
-	transition: color .125s;
 	border: none;
 	background: none;
-	color: inherit;
 }
 .set_contain button.active {
 	color: #e2b714;
