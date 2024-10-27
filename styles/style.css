@@ -139,12 +139,6 @@ nav.settings {
 	background: none;
 	color: inherit;
 }
-.set_contain button:hover {
-	color: var(--title-color);
-}
-.set_contain button:active {
-	color: inherit;
-}
 .set_contain button.active {
 	color: #e2b714;
 }
