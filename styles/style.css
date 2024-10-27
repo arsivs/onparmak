@@ -43,25 +43,16 @@ body {
 }
 
 /* Url Hover Active Start */
-a,
-.top_contain .right i,
-.set_contain button,
-nav.settings .keyb_lang {
+a, a.url {
 	color: var(--text-color);
 	text-decoration: none;
 	transition: color .125s;
 	cursor: pointer;
 }
-a:hover,
-.top_contain .right i:hover,
-.set_contain button:hover,
-nav.settings .keyb_lang:hover {
+a:hover, a.url:hover {
     color: var(--title-color);
 }
-a:active,
-.top_contain .right i:active,
-.set_contain button:active,
-nav.settings .keyb_lang:active {
+a:active, a.url:active {
     color: var(--text-color);
 }
 /* Url Hover Active End  */
