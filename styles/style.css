@@ -19,16 +19,21 @@
 	outline: 0;
 }
 
+:root {
+	--body-bg-color: #323437;
+	--text-color: #646669;
+}
+
 html, body {
 	margin: 0;
 	height: 100%;
 	width: 100%;
 	font-size: 14px;
-	color: #646669;
+	color: var(--text-color);
 }
 
 body {
-	background-color: #323437;
+	background-color: var(--body-bg-color);
 	font-family: "Vazirmatn", sans-serif;
 	font-family: "Lexend Deca", serif;
 }
