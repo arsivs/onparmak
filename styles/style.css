@@ -22,7 +22,7 @@
 :root {
 	--body-bg-color: #16161a;
 	--text-color: #646669;
-	--title-color: #f8f8fb;
+	--title-color: #d1d0c5;
 	--widget-bg: #202024;
 	--txt-blur: 22, 22, 26;
 	--max-width: 1200px;
@@ -75,7 +75,7 @@ nav.top {
 .top_contain .left h1 {
 	display: inline-block;
 	font-family: "Lexend Deca", sans-serif;
-	color: #d1d0c5;
+	color: var(--title-color);
 	font-size: 20px;
 	vertical-align: middle;
 }
