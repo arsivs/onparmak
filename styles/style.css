@@ -81,16 +81,16 @@ nav.top {
 }
 .top_contain .right i {
 	font-size: 22px;
-	color: #646669;
+	color: var(--text-color);
 	margin-left: 15px;
 	transition: color .125s;
 	cursor: pointer;
 }
 .top_contain .right i:hover {
-	color: #d1d0c5;
+	color: var(--title-color);
 }
 .top_contain .right i:active {
-	color: #646669;
+	color: var(--text-color);
 }
 /* Nav Top End */
 
