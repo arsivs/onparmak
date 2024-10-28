@@ -87,7 +87,7 @@ nav.top {
 }
 .top_contain .left i {
 	font-size: 36px;
-	color: #e2b714;
+	color: var(--main-color);
 }
 .top_contain .left h1 {
 	display: inline-block;
