@@ -96,7 +96,7 @@ nav.top {
 	font-size: 20px;
 	vertical-align: middle;
 }
-.top_contain .right i {
+.top_contain .right > i {
 	font-size: 22px;
 	margin-left: 15px;
 }
