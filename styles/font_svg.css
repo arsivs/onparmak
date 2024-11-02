@@ -37,7 +37,6 @@
 
 .icon-sun:before { content: '\e800'; } /* '' */
 .icon-logo:before { content: '\e801'; } /* '' */
-.icon-conf:before { content: '\e802'; } /* '' */
 .icon-keylang:before { content: '\e803'; } /* '' */
 .icon-refresh:before { content: '\e804'; } /* '' */
 .icon-letter:before { content: '\e805'; } /* '' */
@@ -54,8 +53,10 @@
 .icon-comment:before { content: '\e810'; } /* '' */
 .icon-contact-us:before { content: '\e811'; } /* '' */
 .icon-cookie:before { content: '\e812'; } /* '' */
+.icon-menu-bar:before { content: '\e813'; } /* '' */
 .icon-quote:before { content: '\f10d'; } /* '' */
 .icon-info:before { content: '\f129'; } /* '' */
 .icon-shield:before { content: '\f132'; } /* '' */
+.icon-conf:before { content: '\f185'; } /* '' */
 .icon-moon:before { content: '\f186'; } /* '' */
 .icon-mouse:before { content: '\f245'; } /* '' */
