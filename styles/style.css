@@ -100,6 +100,41 @@ nav.top {
 	font-size: 22px;
 	margin-left: 15px;
 }
+.top_contain .day-night {
+	display: inline-flex;
+	background-color: var(--widget-bg);
+	justify-content: space-between;
+	align-items: center;
+	width: 36px;
+	height: 20px;
+	padding: 0 5px;
+	border-radius: 10px;
+	vertical-align: middle;
+}
+.day-night::before,
+.day-night::after {
+	content: '\e800';
+	font-family: "fontello";
+	font-size: 8px;
+	transition:all ease 0.4s;
+}
+.day-night::after {
+	content: '\f186';
+}
+.day-night.mode::after {
+	font-size: 13px;
+	cursor: pointer;
+	color: var(--snipped-color);
+}
+.day-night:not(.mode)::before {
+	color: var(--snipped-color);
+	font-size: 12px;
+	cursor: pointer;
+	transform: translateX(15px) rotate(1turn);
+}
+.day-night:not(.mode)::after {
+	transform: translateX(-18px) rotate(1turn);
+}
 /* Nav Top End */
 
 nav.middle {
