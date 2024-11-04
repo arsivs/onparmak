@@ -98,7 +98,7 @@ nav.top {
 }
 .top_contain .right > i {
 	font-size: 22px;
-	margin-left: 15px;
+	margin: 0 0 0 15px;
 }
 .top_contain .day-night {
 	display: inline-flex;
