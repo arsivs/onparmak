@@ -514,7 +514,7 @@ h1.title_cont {
 }
 .desc {
 	display: flex;
-	width: 790px;
+	max-width: 790px;
 	align-items: center;
 	margin: 0 auto;
 }
@@ -529,7 +529,7 @@ h1.title_cont {
 }
 #comments {
 	background-color: var(--widget-bg);
-	width: 1000px;
+	max-width: 1000px;
 	margin: 0 auto;
 	padding: 20px;
 	padding-bottom: 0;
