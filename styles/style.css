@@ -442,6 +442,7 @@ nav.bottom {
 div#main {
 	font-family: "Vazirmatn", sans-serif;
 	max-width: 1020px;
+	width: var(--max-width);
     margin: 0 auto;
     flex-grow: 1;
 }
