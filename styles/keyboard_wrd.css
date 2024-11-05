@@ -74,7 +74,7 @@
 .word .txt_wrt .next:after {
     content: "";
     position: absolute;
-    width: 15%;
+    width: 160px;
     height: 100%;
     top: 0;
     left: 0;
@@ -90,7 +90,7 @@
 	display: flex;
 	flex-direction: row-reverse;
 	flex-wrap: nowrap;
-	width: 15%;
+	width: 160px;
 	overflow: hidden;
 }
 .word .txt_wrt .prev p {
@@ -107,7 +107,7 @@
 }
 .word .txt_wrt .typing {
 	position: absolute;
-	left: 20px;
+	left: 0;
 	color: #000;
 	font-size: 14px;
 	background-color: #e2b714;
@@ -145,7 +145,7 @@
 	display: flex;
 	flex-direction: row;
 	align-items: center;
-	width: 85%;
+	width: calc(100% - 160px);
 	height: 140px;
 	overflow: hidden;
 }
