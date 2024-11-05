@@ -156,10 +156,11 @@ nav.settings {
 	border-radius: 10px;
 }
 .set_contain > div {
-    align-content: center;
+	display: inline-flex;
 }
 .set_contain button {
-	display: inline-block;
+	display: inline-flex;
+	align-items: center;
 	padding: 7px 10px;
 	border: none;
 	background: none;
