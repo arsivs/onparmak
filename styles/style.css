@@ -626,3 +626,37 @@ h1.title_cont {
 	border-bottom-color: var(--body-bg-color);
 }
 /* Comment End */
+
+/* Cookie Msg Start */
+#cookieChoiceInfo {
+	position: fixed;
+	width: 100%;
+	top: 0;
+	bottom: 0px;
+	padding: 0;
+	background-color: unset;
+	z-index: 4000;
+}
+#cookieChoiceInfo .cookie-choices-inner {
+	position: fixed;
+	background-color: rgba(50, 50, 58, 1);
+	width: 100%;
+	top: auto;
+	bottom: 0;
+	padding: 10px 0;
+	font-family: roboto, Arial;
+	text-align: center;
+}
+#cookieChoiceInfo span a {
+	background-color: #0076a8;
+	padding: 8px;
+	border-radius: 2px;
+	font-weight: normal;
+}
+#cookieChoiceInfo span a:first-child {
+	background-color: #58585b;
+}
+#cookieChoiceInfo span a:hover {
+	background-color: #215387;
+}
+/* Cookie Msg End */
