@@ -648,7 +648,7 @@ h1.title_cont {
 	text-align: center;
 }
 #cookieChoiceInfo span a {
-	background-color: #0076a8;
+	background-color: #005375;
 	padding: 8px;
 	border-radius: 2px;
 	font-weight: normal;
@@ -657,6 +657,6 @@ h1.title_cont {
 	background-color: #58585b;
 }
 #cookieChoiceInfo span a:hover {
-	background-color: #215387;
+	background-color: #004D6B;
 }
 /* Cookie Msg End */
