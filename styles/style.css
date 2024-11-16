@@ -64,6 +64,7 @@ body {
 	background-color: var(--body-bg-color);
 	font-family: "Vazirmatn", sans-serif;
 	font-family: "Lexend Deca", serif;
+	overflow-x: hidden;
 }
 
 /**/
