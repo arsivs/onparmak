@@ -89,7 +89,6 @@ nav.contain {
 	flex-direction: column;
 	width: 100%;
 	height: 100%;
-	z-index: 10;
 	transition: all .3s ease;
 }
 nav.contain nav {
