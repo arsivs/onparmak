@@ -52,6 +52,18 @@
 	--scrolbar-thumb: #444444;
 }
 
+.c_sun {
+	--body-bg-color: #efefef;
+	--text-color: #414141;
+	--title-color: #000000;
+	--snipped-color: #444444;
+	--main-color: #737373;
+	--widget-bg: #ffffff;
+	--txt-blur: 239, 239, 239;
+	--scrolbar-track: #bebebe;
+	--scrolbar-thumb: #888888;
+}
+
 html, body {
 	margin: 0;
 	height: 100%;
@@ -351,6 +363,71 @@ nav.bottom {
 }
 /* Bottom End */
 
+/* Menu Bar Start */
+.menu_content {
+  position: fixed;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  z-index: 6;
+  background-color: rgb(0 0 0 / 44%);
+}
+
+.menu_bar {
+	position: fixed;
+	top: 0;
+	right: 0;
+	width: 400px;
+	height: 100%;
+	padding: 20px 50px;
+	border-left: 1px solid var(--scrolbar-thumb);
+	background-color: var(--widget-bg);
+}
+
+.menu_icon {
+	display: flex;
+	flex-direction: column;
+	align-items: end;
+	width: 35px;
+	margin-left: 100%;
+	padding: 5px;
+	gap: 5px;
+	cursor: pointer;
+}
+.menu_icon span {
+  display: block;
+  background-color: var(--title-color);
+  width: 100%;
+  height: 3px;
+  border-radius: 3px;
+  transition: all .3s ease-in-out;
+}
+.menu_icon span.x2 {
+  width: 16px;
+}
+
+.menu_content.active .menu_icon span.x1 {
+  transform: translateY(8px) rotate(45deg);
+}
+.menu_content.active .menu_icon span.x2 {
+  width: 0%;
+  opacity: 0;
+}
+.menu_content.active .menu_icon span.x3 {
+  transform: translateY(-8px) rotate(-45deg);
+}
+.menu_content .menu_title {
+	font-size: 17px;
+	margin: 30px 0;
+	color: var(--title-color);
+}
+.menu_content .menu_bar a {
+	display: block;
+	margin: 10px;
+	font-size: 15px;
+}
+/* Menu Bar End */
 
 /* Notification Start */
 .notice {
