@@ -69,6 +69,28 @@ window.onload = function() {
   }
 }
 
+function menu(open){
+  let a = _Document.querySelector(".menu_content"),
+  		left = _Document.querySelector("nav.contain");
+  if(open == "open"){
+    a.style.display = "";
+    left.style.zIndex = "10";
+    left.style.transform = "translateX(-400px)";
+    setTimeout(function() {
+        a.classList.add("active");
+        left.style.zIndex = "";
+    }, 180)
+  }else if(open == "close"){
+  	left.style.zIndex = "10";
+    left.style.transform = "translateX(0)";
+    a.classList.remove("active");
+    setTimeout(function() {
+        a.style.display = "none";
+        left.style.zIndex = "";
+    }, 250)
+  }
+}
+
 function Restart(rst){
 	reset = (rst == "restart") ? _Document.querySelector('.set_contain button[data-id].active').dataset.id : rst;
 	key_res.dvr = 0;
