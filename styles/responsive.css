@@ -10,30 +10,30 @@
 }
 @media only screen and (max-width: 720px) {
   .word .txt_wrt .typing {
-  	top: 5px;
-	left: 5px;
+    top: 5px;
+    left: 5px;
   }
   .word .txt_wrt .typing:after {
-	left: 50%;
-	top: 100%;
-	border-left-color: transparent;
-	border-top-color: #e2b714;
-	transform: translateY(-1px) translateX(-50%);
+    left: 50%;
+    top: 100%;
+    border-left-color: transparent;
+    border-top-color: #e2b714;
+    transform: translateY(-1px) translateX(-50%);
   }
   .word .txt_wrt .prev,
   .word .txt_wrt .next:after {
   	width: 70px;
   }
   .word .txt_wrt .next {
-	width: calc(100% - 70px);
+    width: calc(100% - 70px);
   }
 }
 @media only screen and (max-width: 520px) {
   .set_contain {
-	width: 450px;
+    width: 450px;
   }
   .word .txt_wrt .typing:after {
-	left: 55px;
+    left: 55px;
   }
   .word .txt_wrt {
   	width: 100%;
@@ -46,11 +46,11 @@
     width: calc(100% - 50px);
   }
   .results {
-	gap: 15px;
+    gap: 15px;
   }
   .results > div span:first-child {
-	width: 70px;
-	height: 70px;
+  	width: 70px;
+  	height: 70px;
   }
   .results > div span.icon {
   	top: 48px;
@@ -58,11 +58,14 @@
   }
 }
 @media only screen and (max-width: 390px) {
+  .menu_bar {
+    width: 100%;
+  }
   .set_contain {
-	width: var(--max-width);
+    width: var(--max-width);
   }
   .top_contain .left i {
-	font-size: 26px;
+    font-size: 26px;
   }
   .top_contain .left h1 {
   	font-size: 16px;
@@ -75,7 +78,7 @@
   	width: 50px;
   }
   .results {
-	gap: 7px;
+    gap: 7px;
   }
   .results .time span {
   	font-size: 7px;
@@ -84,9 +87,9 @@
   	font-size: 16px;
   }
   .results > div span:first-child {
-	width: 56px;
-	height: 56px;
-	font-size: 18px;
+    width: 56px;
+    height: 56px;
+    font-size: 18px;
   }
   .results > div span:last-child {
     font-size: 7px;
@@ -99,8 +102,8 @@
   	font-size: 9px;
   }
   .keyboard .key {
-	width: 21px;
-	height: 21px;
+    width: 21px;
+    height: 21px;
   }
   .bottom_contain a {
     font-size: 9px;
